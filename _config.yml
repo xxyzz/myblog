@@ -16,13 +16,9 @@
 title: xxyzz
 email: elephantpolar@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to xxyzz's blog, have fun!
+  Welcome to xxyzz's blog!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xxyzz.me" # the base hostname & protocol for your site
-author: xxyzz
-logo: /apple-touch-icon.png
-twitter:
-  username: Northeast_Park
 
 # Social
 githubUsername: xxyzz
@@ -43,5 +39,10 @@ sass:
 
 gems:
   - jekyll-feed
-  - jekyll-seo-tag
-  #- jekyll-multiple-languages-plugin
+  - jekyll-paginate
+#  - jekyll-multiple-languages-plugin
+
+paginate: 5
+paginate_path: "page:num"
+
+#languages: [en", "zh"]
