@@ -3,23 +3,19 @@
    ========================================================================== */
 
 .c-footer {
-  padding: 1rem 2.5rem 2.5rem;
+  padding: 1rem 2.5rem;
   width: 100%;
   background: $c__light-grey;
 
   p {
     @include fs--meta;
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
     margin: 2rem;
   }
 
   a:not(:first-of-type) {
     margin-left: 2rem;
-  }
-
-  .fa {
-    margin-right: 1rem;
   }
 }
 

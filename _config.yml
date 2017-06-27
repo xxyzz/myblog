@@ -14,11 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: xxyzz
-email:
+email: elephantpolar@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to xxyzz's blog, respect my authoritah!
+  Welcome to xxyzz's blog, have fun!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://xxyzz.me" # the base hostname & protocol for your site
+author: xxyzz
+logo: /apple-touch-icon.png
+twitter:
+  username: Northeast_Park
 
 # Social
 githubUsername: xxyzz
@@ -36,3 +40,8 @@ include: [_pages]
 exclude: [_site, CHANGELOG.md, LICENSE, README.md]
 sass:
   style: compressed
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  #- jekyll-multiple-languages-plugin
