@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+<p><i class="material-icons">access_time</i> {{ page.date | date: "%b %-d, %Y" }}</p>
+
 {{ content }}
 
 <div class="pagination">
@@ -21,3 +23,5 @@ layout: page
     </a>
   {% endif %}
 </div>
+
+{% include disqus.html %}
