@@ -37,3 +37,17 @@
 // Vendor
 @import
   'vendor/syntax-highlighting';
+
+.pagination {
+  text-align: center;
+
+  a:not(:first-of-type) {
+    span {
+      margin-left: 15%;
+    }
+  }
+}
+
+.pageNum {
+  margin: 0 1%;
+}

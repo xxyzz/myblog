@@ -2,12 +2,13 @@
 layout: page
 title: About
 permalink: /about/
+titleImage: /images/google-earth-view-6046.jpg
 ---
 I'm a college student, majored in civil engineering.
-When I feel bored of school ~~every day~~, I read books or learn %$^%@#.
+I learn front-end web development, python and Linux in my free time.
 
-This site is built with Jekyll and hosted on Firebase. The theme is [material-jekyll-theme
-](https://github.com/alexcarpenter/material-jekyll-theme). Codes are [here](https://github.com/xxyzz/myblog). Welcome pull requests!🙂
+This site is built with Jekyll and hosted on Firebase. The theme is modified from [material-jekyll-theme
+](https://github.com/alexcarpenter/material-jekyll-theme). My blog's codes are [here](https://github.com/xxyzz/myblog). Welcome pull requests!🙂
 
 You can view my freecodecamp projects at [here](https://xxyzz.github.io)
 

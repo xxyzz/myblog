@@ -1,7 +1,9 @@
 ---
 layout: page
 title: xxyzz
-description: "Welcome to xxyzz's blog!"
+titleImage: /images/google-earth-view-6004.jpg
+pagination:
+  enabled: true
 ---
 {% for post in paginator.posts %}
   <div class="c-archives__item">
@@ -17,30 +19,23 @@ description: "Welcome to xxyzz's blog!"
         <i class="material-icons">navigate_before</i>
       </button>
     </a>
-  {% else %}
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-      <i class="material-icons">navigate_before</i>
-    </button>
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.page_trail %}
+    {% for trail in paginator.page_trail %}
+      {% if paginator.page == trail.num %}
+          <em class="pageNum">{{ trail.num }}</em>
+      {% else %}
+          <a class="pageNum" href="{{ trail.path | prepend: site.baseurl }}">{{ trail.num }}</a>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">
       <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
         <i class="material-icons">navigate_next</i>
       </button>
     </a>
-  {% else %}
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-      <i class="material-icons">navigate_next</i>
-    </button>
   {% endif %}
   </div>
-
-  <style media="screen">
-    .pagination {
-      text-align: center;
-    }
-    .page_number {
-      margin: 2rem;
-    }
-  </style>
