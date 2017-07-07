@@ -10,6 +10,7 @@ titleImage: /images/IMG_20170603_163235654_HDR.jpg
 
 I never knew Shenyang has a [prisoner-of-war camp](https://www.google.com/maps/place/Erzhan+Mengjun+Zhanfu+Jizhongying+Former+Site/@41.809674,123.491435,15z/data=!4m5!3m4!1s0x0:0x302487938ce8e0e6!8m2!3d41.809674!4d123.491435) until I read the book. The exhibition hall is very small and poor. The barrack is really similar to our 	
 dormitory. 💩
+Our dormitory was built in 1952, the camp was 1943.💩💩
 
 ![barrack](/images/IMG_20170525_142836.jpg "barrack")
 
