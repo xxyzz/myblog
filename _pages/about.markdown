@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /about/
 titleImage: /images/google-earth-view-6046.jpg
 comments: true
 ---
