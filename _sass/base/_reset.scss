@@ -121,3 +121,14 @@ pre { overflow: auto; }
 code, pre {
 
 }
+
+.top {
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  opacity: 0.5;
+}
+
+.top:hover {
+  opacity: 1;
+}
