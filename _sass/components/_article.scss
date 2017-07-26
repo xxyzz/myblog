@@ -31,4 +31,13 @@
   ul, ol {
     margin-left: 40px;
   }
+
+  img + em {
+    display: block;
+    text-align: center;
+    color: #757575;
+    font-style: normal;
+    font-size: 1.6rem;
+    margin-top: 1%;
+  }
 }
