@@ -15,7 +15,7 @@ pagination:
 <div class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">
-      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
         <i class="material-icons">navigate_before</i>
       </button>
     </a>
@@ -33,7 +33,7 @@ pagination:
 
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">
-      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
         <i class="material-icons">navigate_next</i>
       </button>
     </a>

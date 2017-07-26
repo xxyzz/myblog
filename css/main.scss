@@ -40,11 +40,8 @@
 
 .pagination {
   text-align: center;
-
-  a:not(:first-of-type) {
-    span {
-      margin-left: 15%;
-    }
+  span {
+    padding: 0 2%;
   }
 }
 

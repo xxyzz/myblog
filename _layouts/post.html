@@ -6,21 +6,21 @@ layout: page
 {{ content }}
 
 <div class="pagination">
-  {% if page.previous.url %}
-  <a href="{{ page.previous.url }}" class="previous">
-    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-      <i class="material-icons">navigate_before</i>
-    </button>
-    <span>{{page.previous.title}}</span>
-  </a>
-  {% endif %}
   {% if page.next.url %}
-    <a href="{{ page.next.url }}" class="next">
-      <span>{{page.next.title}}</span>
-      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-        <i class="material-icons">navigate_next</i>
+    <a href="{{ page.next.url }}" title="{{page.next.title}}" class="next">
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
+        <i class="material-icons">navigate_before</i>
       </button>
+      <span>Newer</span>
     </a>
+  {% endif %}
+  {% if page.previous.url %}
+  <a href="{{ page.previous.url }}" title="{{page.previous.title}}" class="previous">
+    <span>Older</span>
+    <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-button--colored">
+      <i class="material-icons">navigate_next</i>
+    </button>
+  </a>
   {% endif %}
 </div>
 
