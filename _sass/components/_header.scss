@@ -11,7 +11,7 @@
 
 .c-header__title {
   position: relative;
-  @include ff--mono(500);
+  @include ff--mono(600);
   @include fs--title;
   color: $c__white;
 
@@ -24,4 +24,10 @@
   span {
     color: rgba(#fff, .5);
   }
+}
+
+.c-header__date {
+  color: $c__white;
+  @include ff--mono(600);
+  font-size: 2.5rem;
 }

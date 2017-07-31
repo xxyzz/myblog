@@ -2,9 +2,10 @@
 layout: default
 ---
 <article class="c-article">
-  <header class="c-header c-article__header" {% if page.titleImage %} style="background: url('{{ page.titleImage }}') center / cover;" {% else %} style="background: url('/images/google-earth-view-6004.jpg') center / cover;" {% endif %}>
+  <header class="c-header c-article__header" {% if page.titleImage %} style="background: url('{{ page.titleImage }}') center / cover;" {% else %} style="background: url('/images/google-earth-view-6046.jpg') center / cover;" {% endif %}>
     <div class="u-container">
       <h1 class="c-header__title">{{ page.title }}</h1>
+      {% if page.date %}<h2 class="c-header__date">{{ page.date | date: "%b %-d, %Y" }}</h2>{% endif %}
     </div>
   </header>
 
