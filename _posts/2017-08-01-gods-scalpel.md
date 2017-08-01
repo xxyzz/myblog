@@ -2,7 +2,7 @@
 layout: post
 title: "God's Scalpel"
 date: 2017-08-01 16:00:00 +0800
-description: ""
+description: "God's Scalpel is a popular science book that explains the current progress of biology and the future of gene therapy. It's thin but informative and easy to understand."
 comments: true
 titleImage: /images/gene.jpg
 ---
