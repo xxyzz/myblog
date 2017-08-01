@@ -22,10 +22,23 @@
   }
 
   blockquote {
-    margin-left: -2.5rem;
-    width: calc(100% + 5rem);
+    border-left: 10px solid #ccc;
     padding: 2.5rem;
-    background: $c__light-grey;
+    margin: 0 0 16px;
+    background: #EEEEEE;
+  }
+
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
+  }
+
+  blockquote:after {
+    color: #ccc;
+    content: no-close-quote;
   }
 
   ul, ol {
