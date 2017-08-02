@@ -18,6 +18,6 @@ six randomly selected schools in Guangzhou; children at six other schools had no
 as controls. Of the 900-plus children who attended the outside class, 30% developed myopia by age nine or ten
 compared with 40% of those at the control schools.
 
-I also learned from this book that there is a way to cure AIDS: change [CCR5](https://www.wikiwand.com/en/CCR5){:target="_blank"} gene. Only 1% of people are CCR5-Δ32 homozygotes.
+I also learned from this book that there is a way to cure AIDS: modify [CCR5](https://www.wikiwand.com/en/CCR5){:target="_blank"} gene. Only 1% of people are CCR5-Δ32 homozygotes, that means they are immune to AIDS. **BUT**:
 > CCR5-Δ32 can be beneficial to the host in some infections (e.g., HIV-1, possibly smallpox), but detrimental in others (e.g., tick-borne encephalitis, West Nile virus). Whether CCR5 function is helpful or harmful in the
 context of a given infection depends on a complex interplay between the immune system and the pathogen.
