@@ -66,6 +66,8 @@ audio:not([controls]) {
 [hidden], template { display: none; }
 
 img {
+  margin: 0 auto;
+  display: block;
   max-width: 100%;
   font-style: italic;
   vertical-align: middle;
