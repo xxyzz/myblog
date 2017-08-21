@@ -8,8 +8,10 @@ comments: true
 Student, Linux user, South Park fan, bibliophile.
 
 This site is built with Jekyll and hosted on Firebase. The theme is modified from [material-jekyll-theme
-](https://github.com/alexcarpenter/material-jekyll-theme). My blog's codes are [here](https://github.com/xxyzz/myblog). Welcome pull requests!🙂
+](https://github.com/alexcarpenter/material-jekyll-theme){:target="_blank"}. My blog's codes are [here](https://github.com/xxyzz/myblog){:target="_blank"}. Welcome pull requests!🙂
 
-You can view my freecodecamp projects at [here](https://xxyzz.github.io).
+You can view my freecodecamp projects at [here](https://xxyzz.github.io){:target="_blank"}.
+
+[freecodecamp's front end development certification](https://www.freecodecamp.org/xxyzz/front-end-certification){:target="_blank"}
 
 {% include disqus.html %}

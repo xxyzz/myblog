@@ -12,7 +12,7 @@ Gene editing develops rapidly, you'll never know when a new technology will appe
 
 Developing new drugs takes a lot of time and money, most countries give innovative drugs 20 years of patent protection period. But there is no secret in pharmaceutical market: the patent is public; government needs to supervise each progress; it's easy to get the chemical structure through reverse engineering. This is why Indian drugs are cheap.
 
-This book mentioned myopia, I doubted the accuracy of one sentence, so I checked the [reference](https://www.nature.com/news/the-myopia-boom-1.17120). This article mainly said the impact of sunlight on myopia:
+This book mentioned myopia, I doubted the accuracy of one sentence, so I checked the [reference](https://www.nature.com/news/the-myopia-boom-1.17120){:target="_blank"}. This article mainly said the impact of sunlight on myopia:
 > They added a 40-minute outdoor class to the end of the school day for a group of six- and seven-year-olds at
 six randomly selected schools in Guangzhou; children at six other schools had no change in schedule and served
 as controls. Of the 900-plus children who attended the outside class, 30% developed myopia by age nine or ten

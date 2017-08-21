@@ -1,25 +1,7 @@
 {% if page.comments %}
 <div style="text-align: center;">
-  <button id="load_disqus" onclick="disqus();">load commonts</button>
+  <button id="load_disqus" class="c-btn c-btn-raised" onclick="disqus();" style="transition: opacity 0.5s;">load commonts</button>
 </div>
-<style media="screen">
-  #load_disqus {
-    cursor: pointer;
-    outline: none;
-    background: #64FFDA;
-    color: #424242;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
-    border: none;
-    border-radius: 2px;
-    height: 36px;
-    padding: 0 16px;
-    font-family: "Roboto","Helvetica","Arial",sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 3% auto;
-  }
-</style>
 <div id="disqus_thread"></div>
 <script>
 
@@ -37,7 +19,10 @@ var d = document, s = d.createElement('script');
 s.src = 'https://xxyzz.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
-document.getElementById("load_disqus").style.display = "none";
+document.getElementById("load_disqus").style.opacity = "0";
+setTimeout(function() {
+  document.getElementById("load_disqus").style.display = "none";
+}, 500);
 };
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

@@ -5,7 +5,7 @@ date:   2017-06-27 19:28:00 +0800
 description: "This is the first post of my blog. Yoooooooo!"
 comments: true
 ---
-This is awesome! Thanks to [Github student pack](https://education.github.com/pack), this blog cost me $0! I am reading *Soft Skills: The Software Developer's Life Manual*, it's said you better get a blog. So I build one, and it's fun!
+This is awesome! Thanks to [Github student pack](https://education.github.com/pack){:target="_blank"}, this blog cost me $0! I am reading *Soft Skills: The Software Developer's Life Manual*, it's said you better get a blog. So I build one, and it's fun!
 
 It's still need much work, but I'm so lazy and need to prepare the ~~fu**~~ final exams.
 
