@@ -11,114 +11,47 @@
   padding: 0;
 }
 
-*, *:before, *:after { box-sizing: inherit; }
-
-
-html {
-  min-height: 100%;
-  box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 62.5%; // Make it easy to calculate rems to px
-}
-
 body {
-  @include ff--sans-serif(400);
-  -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color: #F4ECD8;
 }
 
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section {
-  display: block;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Mono', monospace;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+header {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+  background: #9C27B0;
+  background: linear-gradient(to bottom, #9C27B0, #3F51B5);
+  padding: 6%;
+  color: #fff;
 }
 
-
-/* Media */
-audio, canvas, progress, video {
-    display: inline-block;
-    vertical-align: baseline;
+header p {
+  font-size: 1.3em;
 }
 
-audio:not([controls]) {
-    display: none;
-    height: 0;
+.hover {
+  transition: color 1s;
 }
 
-/* Images */
-
-[hidden], template { display: none; }
-
-img {
-  margin: 0 auto;
-  display: block;
-  max-width: 100%;
-  font-style: italic;
-  vertical-align: middle;
-  border: 0;
-  border-radius: 2px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+.hover:hover {
+  color: #FF9800;
 }
 
-svg:not(:root) { overflow: hidden; }
-
-svg {
-  pointer-events: none;
-  max-height: 100%
+@keyframes slidein {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+  from { margin-left: -20% }
+  to   { margin-left: 0 }
 }
 
-
-/* Links */
-
-a {
-  background-color: transparent;
-  text-decoration: none;
-  color: $t-theme;
+.slidein {
+  animation: 1.5s slidein;
 }
 
-a:active, a:hover { outline: 0; }
-
-/* Text Selectors */
-
-abbr[title] { border-bottom: 1px dotted; }
-b, strong   { font-weight: bold; }
-
-/* Content */
-
-figure {
-  margin: 0;
-}
-
-
-hr {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  width: 100%;
-  height: 1px;
-  border: 0;
-  background: #EFF1F3;
-}
-
-/* Code Blocks */
-
-pre { overflow: auto; }
-
-code, pre {
-
+.pagination {
+  text-align: center;
 }

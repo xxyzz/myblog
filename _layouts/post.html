@@ -5,24 +5,16 @@ layout: page
 {{ content }}
 
 <div class="pagination">
-  {% if page.next.url %}
-    <a href="{{ page.next.url }}" title="{{page.next.title}}" class="next">
-      <button class="c-btn c-btn-fab">
-        <svg viewbox="0 0 24 24">
-          <path d="M15.422 7.406l-4.594 4.594 4.594 4.594-1.406 1.406-6-6 6-6z"></path>
-        </svg>
-      </button>
-      <span>Newer</span>
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url }}" title="{{page.previous.title}}">
+      <button class="btn-flat btn-floating orange"><i class="material-icons">chevron_left</i></button>
+      <span class="previous">Older</span>
     </a>
   {% endif %}
-  {% if page.previous.url %}
-  <a href="{{ page.previous.url }}" title="{{page.previous.title}}" class="previous">
-    <span>Older</span>
-    <button class="c-btn c-btn-fab">
-      <svg viewbox="0 0 24 24">
-        <path d="M9.984 6l6 6-6 6-1.406-1.406 4.594-4.594-4.594-4.594z"></path>
-      </svg>
-    </button>
+  {% if page.next.url %}
+  <a href="{{ page.next.url }}" title="{{page.next.title}}">
+    <span class="next">Newer</span>
+    <button class="btn-flat btn-floating orange"><i class="material-icons">chevron_right</i></button>
   </a>
   {% endif %}
 </div>

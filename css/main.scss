@@ -4,51 +4,18 @@
 @charset "utf-8";
 
 // Helpers
-@import
-  'helpers/variables',
-  'helpers/mixins';
+//@import
+//  'helpers/variables',
+//  'helpers/mixins';
 
 // Base
 @import
   'base/reset';
 
-// Utilities
-@import
-  'utilities/layout';
-
 // Components
 @import
-  'components/header',
-  'components/navigation',
-  'components/article',
-  'components/archives',
-  // 'components/social',
-  'components/buttons',
-  'components/footer';
-
-// Themes
-@import
-  'themes/blue';
-  // 'themes/green',
-  // 'themes/grey',
-  // 'themes/orange',
-  // 'themes/purple';
+  'components/article';
 
 // Vendor
-@import
-  'vendor/syntax-highlighting';
-
-.pagination {
-  text-align: center;
-  span {
-    padding: 0 2%;
-    vertical-align: middle;
-  }
-  em {
-    font-style: normal;
-  }
-}
-
-.pageNum {
-  margin: 0 1%;
-}
+//@import
+//  'vendor/syntax-highlighting';

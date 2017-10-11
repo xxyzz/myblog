@@ -1,45 +1,65 @@
 ---
-layout: page
+layout: default
 title: xxyzz
-titleImage: /images/google-earth-view-6046.jpg
 pagination:
   enabled: true
 ---
-{% for post in paginator.posts %}
-  <div class="c-archives__item">
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<script src="/script/index.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/index.css">
+<header>
+  <a href="https://twitter.com/intent/tweet?url=https://xxyzz.me&text=Check out xxyzz's blog and respect his authoritah!" target="_blank" class="btn-flat btn-floating right orange" title="Share on Twitter"><i class="material-icons">share</i></a>
+  <h2 class="slidein">xxyzz</h2>
+  <p class="slidein">Respect my authoritah!</p>
+  <ul class="slidein">
+    <li><a href="#blog">Blog</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+    <li><a href="about">About</a></li>
+  </ul>
+</header>
+<div class="blog" id="blog">
+  <h2>Blog</h2>
+
+  <ul id="articles-list">
+  {% for post in paginator.posts %}
+    <li class="articles" style="opacity: 0;">
+      <h4><a class="hover" href="{{ post.url }}">{{ post.title }}</a></h4>
       <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-  </div>
-{% endfor %}
+    </li>
+  {% endfor %}
+  </ul>
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      <button class="c-btn c-btn-fab">
-        <svg viewbox="0 0 24 24">
-          <path d="M15.422 7.406l-4.594 4.594 4.594 4.594-1.406 1.406-6-6 6-6z"></path>
-        </svg>
-      </button>
-    </a>
-  {% endif %}
+  <ul class="pagination">
+    {% if paginator.previous_page %}
+      <li class="waves-effect"><a href="{{ paginator.previous_page_path }}"><i class="material-icons">chevron_left</i></a></li>
+    {% else %}
+      <li class="waves-effect disabled"><a href="{{ paginator.previous_page_path }}"><i class="material-icons">chevron_left</i></a></li>
+    {% endif %}
 
-  {% if paginator.page_trail %}
-    {% for trail in paginator.page_trail %}
-      {% if paginator.page == trail.num %}
-          <em class="pageNum">{{ trail.num }}</em>
-      {% else %}
-          <a class="pageNum" href="{{ trail.path | prepend: site.baseurl }}">{{ trail.num }}</a>
-      {% endif %}
-    {% endfor %}
-  {% endif %}
+    {% if paginator.page_trail %}
+      {% for trail in paginator.page_trail %}
+        {% if paginator.page == trail.num %}
+          <li class="active orange"><a>{{ trail.num }}</a></li>
+        {% else %}
+          <li class="waves-effect"><a href="{{ trail.path | prepend: site.baseurl }}">{{ trail.num }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">
-      <button class="c-btn c-btn-fab">
-        <svg viewbox="0 0 24 24">
-          <path d="M9.984 6l6 6-6 6-1.406-1.406 4.594-4.594-4.594-4.594z"></path>
-        </svg>
-      </button>
-    </a>
-  {% endif %}
-  </div>
+    {% if paginator.next_page %}
+      <li class="waves-effect"><a href="{{ paginator.next_page_path }}"><i class="material-icons">chevron_right</i></a></li>
+    {% else %}
+      <li class="waves-effect disabled"><a href="{{ paginator.next_page_path }}"><i class="material-icons">chevron_right</i></a></li>
+    {% endif %}
+  </ul>
+
+</div>
+
+<div class="contact" id="contact">
+  <h2 class="scroll">Contact Me</h2>
+  <ul class="scroll">
+    <li><a class="fa fa-twitter hover" aria-hidden="true" href="https://twitter.com/Northeast_Park" target="_blank"></a></li>
+    <li><a class="fa fa-github hover" aria-hidden="true" href="https://github.com/xxyzz" target="_blank"></a></li>
+    <li><a class="fa fa-envelope-o hover" aria-hidden="true" href="mailto:{{ site.email }}" target="_blank"></a></li>
+    <li><a class="fa fa-rss hover" href="/feed.xml"></a></li>
+  </ul>
+</div>

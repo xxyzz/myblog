@@ -1,6 +1,6 @@
 {% if page.comments %}
 <div style="text-align: center;">
-  <button id="load_disqus" class="c-btn c-btn-raised" onclick="disqus();" style="transition: opacity 0.5s;">load commonts</button>
+  <button id="load_disqus" class="waves-effect waves-light btn orange" onclick="disqus();">load commonts</button>
 </div>
 <div id="disqus_thread"></div>
 <script>
@@ -19,10 +19,7 @@ var d = document, s = d.createElement('script');
 s.src = 'https://xxyzz.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
-document.getElementById("load_disqus").style.opacity = "0";
-setTimeout(function() {
-  document.getElementById("load_disqus").style.display = "none";
-}, 500);
+$('#load_disqus').fadeOut("slow");
 };
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

@@ -1,0 +1,57 @@
+@media screen and (max-width: 439px) {
+  .articles p {
+    display: none;
+  }
+  .articles {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .articles {
+    justify-content: space-between;
+  }
+}
+
+body {
+	color: #fff;
+	background: #03A9F4;
+ 	background: linear-gradient(to bottom, #03A9F4, #009688);
+}
+
+.blog {
+  padding: 6%;
+}
+
+.contact {
+  -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+  background: #8BC34A;
+  background: linear-gradient(to bottom, #8BC34A, #FFEB3B);
+  padding: 6%;
+}
+
+header li, .contact li {
+  display: inline-block;
+  padding: 2% 8% 0 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5em;
+}
+
+header li a, .articles a {
+  color: #FFC107;
+}
+
+.contact ul {
+  text-align: center;
+  font-size: 2em;
+}
+
+.contact a {
+  color: #fff;
+}
+
+.articles {
+  display: flex;
+  align-items: center;
+}
