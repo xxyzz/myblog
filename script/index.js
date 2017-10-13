@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 
 	var options = [
-		{selector: '#articles-list', offset: 400, callback: function(el) {
+		{selector: '#articles-list', offset: 300, callback: function(el) {
 	        	Materialize.showStaggeredList($(el));
 	    	}
 	    }

@@ -4,7 +4,7 @@ title: "God's Scalpel"
 date: 2017-08-01 16:00:00 +0800
 description: "God's Scalpel is a popular science book that explains the current progress of biology and the future of gene therapy. It's thin but informative and easy to understand."
 comments: true
-titleImage: /images/gene.jpg
+ogImage: /images/gene.jpg
 ---
 [*God's Scalpel: A Brief History of Gene Editing*](https://www.amazon.cn/%E4%B8%8A%E5%B8%9D%E7%9A%84%E6%89%8B%E6%9C%AF%E5%88%80-%E5%9F%BA%E5%9B%A0%E7%BC%96%E8%BE%91%E7%AE%80%E5%8F%B2-%E7%8E%8B%E7%AB%8B%E9%93%AD/dp/B071HXVPXG){:target="_blank"} is a popular science book that explains the current progress of biology and the future of gene therapy. It's thin but informative and easy to understand.
 

@@ -6,13 +6,13 @@ pagination:
 ---
 <script src="/script/index.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/index.css">
-<header>
+<header id="header">
   <a href="https://twitter.com/intent/tweet?url=https://xxyzz.me&text=Check out xxyzz's blog and respect his authoritah!" target="_blank" class="btn-flat btn-floating right orange" title="Share on Twitter"><i class="material-icons">share</i></a>
   <h2 class="slidein">xxyzz</h2>
   <p class="slidein">Respect my authoritah!</p>
   <ul class="slidein">
     <li><a href="#blog">Blog</a></li>
-    <li><a href="#contact">Contact Me</a></li>
+    <li><a href="#contact">Contact</a></li>
     <li><a href="about">About</a></li>
   </ul>
 </header>
@@ -32,7 +32,7 @@ pagination:
     {% if paginator.previous_page %}
       <li class="waves-effect"><a href="{{ paginator.previous_page_path }}"><i class="material-icons">chevron_left</i></a></li>
     {% else %}
-      <li class="waves-effect disabled"><a href="{{ paginator.previous_page_path }}"><i class="material-icons">chevron_left</i></a></li>
+      <li class="waves-effect disabled"><a><i class="material-icons">chevron_left</i></a></li>
     {% endif %}
 
     {% if paginator.page_trail %}
@@ -48,14 +48,14 @@ pagination:
     {% if paginator.next_page %}
       <li class="waves-effect"><a href="{{ paginator.next_page_path }}"><i class="material-icons">chevron_right</i></a></li>
     {% else %}
-      <li class="waves-effect disabled"><a href="{{ paginator.next_page_path }}"><i class="material-icons">chevron_right</i></a></li>
+      <li class="waves-effect disabled"><a><i class="material-icons">chevron_right</i></a></li>
     {% endif %}
   </ul>
 
 </div>
 
 <div class="contact" id="contact">
-  <h2 class="scroll">Contact Me</h2>
+  <h2 class="scroll">Contact</h2>
   <ul class="scroll">
     <li><a class="fa fa-twitter hover" aria-hidden="true" href="https://twitter.com/Northeast_Park" target="_blank"></a></li>
     <li><a class="fa fa-github hover" aria-hidden="true" href="https://github.com/xxyzz" target="_blank"></a></li>

@@ -7,16 +7,15 @@
   <meta name="theme-color" content="#9C27B0">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@Northeast_Park" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta name="twitter:image:src" content="{% if page.titleImage %}{{ site.url }}{{ page.titleImage }}{% else %}{{ site.url }}{{ '/images/google-earth-view-6046.jpg' }}{% endif %}" />
+  <meta name="twitter:image" content="{% if page.ogImage %}{{ site.url }}{{ page.ogImage }}{% else %}{{ site.url }}{{ '/icon.jpg' }}{% endif %}" />
   <!-- Open Graph -->
   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{% if page.titleImage %}{{ site.url }}{{ page.titleImage }}{% else %}{{ site.url }}{{ '/images/google-earth-view-6046.jpg' }}{% endif %}" />
+  <meta property="og:image" content="{% if page.ogImage %}{{ site.url }}{{ page.ogImage }}{% else %}{{ site.url }}{{ '/icon.jpg' }}{% endif %}" />
   <!-- icon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">

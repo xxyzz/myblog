@@ -15,12 +15,12 @@
 
 body {
 	color: #fff;
-	background: #03A9F4;
- 	background: linear-gradient(to bottom, #03A9F4, #009688);
+	background: #2196F3;
+ 	background: linear-gradient(to bottom, #2196F3, #4CAF50);
 }
 
 .blog {
-  padding: 6%;
+  padding: 8%;
 }
 
 .contact {
@@ -28,14 +28,17 @@ body {
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
   background: #8BC34A;
   background: linear-gradient(to bottom, #8BC34A, #FFEB3B);
-  padding: 6%;
+  padding: 8%;
 }
 
 header li, .contact li {
   display: inline-block;
-  padding: 2% 8% 0 0;
   font-family: 'Roboto Mono', monospace;
   font-size: 1.5em;
+}
+
+header li:not(:last-of-type), .contact li:not(:last-of-type) {
+  padding: 2% 8% 0 0;
 }
 
 header li a, .articles a {

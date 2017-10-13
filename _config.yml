@@ -27,9 +27,6 @@ twitterUsername: Northeast_Park
 # Build settings
 markdown: kramdown
 
-themeColor: blue # green, blue, orange, purple, grey
-fixedNav: 'true' # true or false
-
 #permalink: /:year/:month/:title
 markdown: kramdown
 include: [_pages]
