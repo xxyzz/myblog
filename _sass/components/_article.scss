@@ -24,11 +24,23 @@ article {
     }
   }
 
-  p {
+  p, .video-container {
     margin-bottom: 1.5rem;
   }
 
   blockquote {
     border-left: 5px solid #FF9800;
+  }
+
+  .footnotes :target {
+    background: #FF9800;
+  }
+
+  .footnotes {
+    font-size: 0.9rem;
+  }
+
+  .footnotes ol {
+    margin-left: 1.5rem;
   }
 }

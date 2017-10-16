@@ -3,7 +3,7 @@ layout: default
 ---
 <header>
 	<a class="btn-flat btn-floating orange" href="/"><i class="material-icons">home</i></a>
-	<a href="https://twitter.com/intent/tweet?url=https://xxyzz.me&text=Check out xxyzz's blog and respect his authoritah!" target="_blank" class="btn-flat btn-floating right orange" title="Share on Twitter"><i class="material-icons">share</i></a>
+	<a href="https://twitter.com/intent/tweet?url=https://xxyzz.me&text={% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" target="_blank" class="btn-flat btn-floating right orange" title="Share on Twitter"><i class="material-icons">share</i></a>
 	<h2 class="slidein">{{ page.title }}</h2>
 	{% if page.date %}<p class="slidein">{{ page.date | date: "%b %-d, %Y" }}</p>{% else %}<p class="slidein">Respect my authoritah!</p>{% endif %}
 </header>
