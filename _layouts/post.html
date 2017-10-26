@@ -7,14 +7,14 @@ layout: page
 <div class="pagination">
   {% if page.previous.url %}
     <a href="{{ page.previous.url }}" title="{{page.previous.title}}">
-      <button class="btn-flat btn-floating orange"><i class="material-icons">chevron_left</i></button>
+      <button class="mdl-button mdl-button--fab"><i class="material-icons">chevron_left</i></button>
       <span class="previous">Older</span>
     </a>
   {% endif %}
   {% if page.next.url %}
   <a href="{{ page.next.url }}" title="{{page.next.title}}">
     <span class="next">Newer</span>
-    <button class="btn-flat btn-floating orange"><i class="material-icons">chevron_right</i></button>
+    <button class="mdl-button mdl-button--fab"><i class="material-icons">chevron_right</i></button>
   </a>
   {% endif %}
 </div>

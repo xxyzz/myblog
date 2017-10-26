@@ -24,6 +24,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -51,25 +55,6 @@ header p {
   font-size: 1.3em;
 }
 
-.hover {
-  transition: color 1s;
-}
-
-.hover:hover {
-  color: #FF9800;
-}
-
-@keyframes slidein {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-  from { margin-left: -20% }
-  to   { margin-left: 0 }
-}
-
-.slidein {
-  animation: 1.5s slidein;
-}
-
 .pagination {
   text-align: center;
 }
@@ -77,4 +62,15 @@ header p {
 .responsive-img {
   margin: 0 auto;
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #3F51B5;
+}
+
+.right {
+  float: right;
 }
