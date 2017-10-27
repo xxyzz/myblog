@@ -18,21 +18,28 @@ article {
     font-weight: bold;
   }
 
+  img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
   .pagination {
-    button {
-      margin: 3% 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 15px;
+
+    a button, a span {
+      vertical-align: middle;
     }
 
-    span {
-      vertical-align: baseline;
-      vertical-align: -moz-middle-with-baseline;
+    .newer {
+      margin-right: 16px;
     }
 
-    .previous {
-      margin: 0 8% 0 1%;
-    }
-    .next {
-      margin: 0 1% 0 8%;
+    .older {
+      margin-left: 16px;
     }
   }
 

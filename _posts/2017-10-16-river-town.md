@@ -21,7 +21,7 @@ It was under construction since 1994; the reservoir was filled and the first gen
 
 The dam provides power to 9 provinces ans 2 cities, namely Hubei, Hunan, Henan, Jiangxi, Anhui, Jiangsu, Zhejiang, Sichuan, Guangdong, as well as Chongqing and Shanghai.[^2] In 2012, it generated 98.1 TWh of electricity, which accounts for 14% of China's total hydro generation. It was expected to provide 10% of China's power. However, because of the rapidly growing demend, it supported only about 1.7% of Chinese electricity demand in 2011, when the demend was 4692.8 TWh. In 2016, the demend was 5920 Twh. China is the lagest electricity consumption country now,[^3] and the dam is also the largest station in the world.[^4] In 2016, 66% of Chinese electricity came from coal 👏, and that figure was 78% in 2014.
 
-![Electricity Production in China](https://upload.wikimedia.org/wikipedia/commons/b/b0/Electricity_Production_in_China.png){:.responsive-img}
+![Electricity Production in China](https://upload.wikimedia.org/wikipedia/commons/b/b0/Electricity_Production_in_China.png)
 
 After all, making sure electricity supply has a higher priority. Just as Peter said, when you come across power outage, all you want is restoring power right now. China's developement need that power, if not build it, China will build more thermal power stations anyway.
 

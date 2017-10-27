@@ -6,7 +6,7 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="theme-color" content="#9C27B0">
   <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="{% if page.ogImage %}summary_large_image{% else %}summary{% endif %}" />
   <meta name="twitter:title" content="{{ page.title }}" />
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
   <meta name="twitter:image" content="{% if page.ogImage %}{{ site.url }}{{ page.ogImage }}{% else %}{{ site.url }}{{ '/icon.jpg' }}{% endif %}" />

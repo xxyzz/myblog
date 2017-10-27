@@ -5,17 +5,18 @@ layout: page
 {{ content }}
 
 <div class="pagination">
-  {% if page.previous.url %}
-    <a href="{{ page.previous.url }}" title="{{page.previous.title}}">
-      <button class="mdl-button mdl-button--fab"><i class="material-icons">chevron_left</i></button>
-      <span class="previous">Older</span>
+  {% if page.next.url %}
+    <a href="{{ page.next.url }}" title="{{page.next.title}}">
+      <button class="mdl-button mdl-button--fab newer"><i class="material-icons">arrow_back</i></button>
+      <span>Newer</span>
     </a>
   {% endif %}
-  {% if page.next.url %}
-  <a href="{{ page.next.url }}" title="{{page.next.title}}">
-    <span class="next">Newer</span>
-    <button class="mdl-button mdl-button--fab"><i class="material-icons">chevron_right</i></button>
-  </a>
+  <div></div>
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url }}" title="{{page.previous.title}}">
+      <span>Older</span>
+      <button class="mdl-button mdl-button--fab older"><i class="material-icons">arrow_forward</i></button>
+    </a>
   {% endif %}
 </div>
 

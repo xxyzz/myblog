@@ -1,8 +1,15 @@
 {% if page.comments %}
 <div style="text-align: center;">
-  <button id="load_disqus" class="mdl-button mdl-button--raised" onclick="disqus();">load commonts</button>
+  <button id="load_disqus" class="mdl-button mdl-button--raised">load commonts</button>
 </div>
 <div id="disqus_thread"></div>
+<style type="text/css">
+	.fadeout {
+		visibility: hidden;
+  		opacity: 0;
+  		transition: visibility 0s 1s, opacity 1s linear;
+	}
+</style>
 <script>
 
 /**
@@ -18,11 +25,14 @@ var d = document, s = d.createElement('script');
 s.src = 'https://xxyzz.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
-document.getElementById("load_disqus").style.opacity = "0";
-setTimeout(function() {
-  document.getElementById("load_disqus").style.display = "none";
-}, 500);
 };
+document.getElementById("load_disqus").addEventListener('click', function() {
+    document.getElementById('load_disqus').className += ' fadeout';
+    disqus();
+});
+document.getElementById("load_disqus").addEventListener("transitionend", function() {
+	document.getElementById('load_disqus').style.display = "none";
+});
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}

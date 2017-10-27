@@ -9,7 +9,7 @@ layout: default
 		<button class="mdl-button mdl-button--fab"><i class="material-icons">share</i></button>
 	</a>
 	<h1 class="slidein">{{ page.title }}</h1>
-	{% if page.date %}<p class="slidein">{{ page.date | date: "%b %-d, %Y" }}</p>{% else %}<p class="slidein">Respect my authoritah!</p>{% endif %}
+	{% if page.date %}<p>{{ page.date | date: "%b %-d, %Y" }}</p>{% else %}<p>Respect my authoritah!</p>{% endif %}
 </header>
 
 <article>

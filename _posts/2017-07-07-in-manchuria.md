@@ -12,16 +12,16 @@ I never knew Shenyang has a [prisoner-of-war camp](https://www.google.com/maps/p
 dormitory. 💩
 Our dormitory was built in 1952, the camp was 1943.💩💩
 
-![barrack](/images/IMG_20170525_142836.jpg "barrack"){:.responsive-img}
+![barrack](/images/IMG_20170525_142836.jpg "barrack")
 
 The Japanese plan for the city is still clearly visible. And many buildings are still in use.
 
-![map](/images/map.jpg){:.responsive-img}
+![map](/images/map.jpg)
 
 Such as Zhongshan square in Shenyang, the Yamato Hotel is Liaoning Hotel now, the Fengtian Police Station is Shenyang Public Security Bureau, the Kwantung Army Headquarters is Shenyang General Labour Union.
 
 In 1969, during the [Cultural Revolution](https://www.wikiwand.com/en/Cultural_Revolution){:target="_blank"}, the statue of Mao was built. Before that there was a [Russo-Japanese War](https://www.wikiwand.com/en/Russo-Japanese_War){:target="_blank"} monument. After the Cultural Revolution, most of Mao's statue was removed, but this one is obviously an exception. We can see how crazy and ignorant of that age through it.
 
-![mao](/images/IMG_20170603_164208269-EFFECTS.jpg){:.responsive-img}
+![mao](/images/IMG_20170603_164208269-EFFECTS.jpg)
 
 And [Neil Armstrong](https://www.wikiwand.com/en/Neil_Armstrong#/Navy_service){:target="_blank"}'s plane was shot down in Korean War, a jeep driven by a roommate from flight school picked him up.
