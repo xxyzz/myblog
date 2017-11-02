@@ -4,10 +4,104 @@ title: xxyzz
 pagination:
   enabled: true
 ---
-<link rel="stylesheet" type="text/css" href="/css/index.css">
+<style type="text/css">
+  @media screen and (max-width: 439px) {
+    .articles p {
+      display: none;
+    }
+    .articles {
+      justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 440px) {
+    .articles {
+      justify-content: space-between;
+    }
+  }
+
+  body {
+    color: #fff;
+    background: #2196F3;
+    background: linear-gradient(to bottom, #2196F3, #4CAF50);
+  }
+
+  .blog {
+    padding: 8%;
+  }
+
+  .contact {
+    -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    background: #8BC34A;
+    background: linear-gradient(to bottom, #8BC34A, #FFEB3B);
+    padding: 8%;
+  }
+
+  h2 {
+    font-size: 56px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+  }
+
+  header li, .contact li {
+    display: inline-block;
+    font-size: 1.5em;
+  }
+
+  header li:not(:last-of-type), .contact li:not(:last-of-type) {
+    padding: 2% 8% 0 0;
+  }
+
+  header li a, .articles a {
+    color: #FFC107;
+  }
+
+  .contact ul {
+    text-align: center;
+  }
+
+  .contact a {
+    color: #F44336;
+  }
+
+  .articles {
+    display: flex;
+    align-items: center;
+  }
+
+  .pagination li.disabled a {
+    cursor: default;
+    color: #999;
+  }
+
+  .pagination li.active {
+    background-color: #ff9800;
+  }
+
+  .pagination li {
+    display: inline-block;
+    border-radius: 2px;
+    vertical-align: top;
+    height: 30px;
+  }
+
+  .pagination li a {
+    color: #444;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+</style>
 <header id="header">
-  <a class="right" href="https://twitter.com/intent/tweet?url=https://xxyzz.me&text=Check out xxyzz's blog and respect his authoritah!" target="_blank" title="Share on Twitter">
-    <button class="mdl-button mdl-button--fab"><i class="material-icons">share</i></button>
+  <a class="right" href="/feed.xml" title="RSS">
+    <button class="mdl-button mdl-button--fab"><i class="material-icons">rss_feed</i></button>
   </a>
   <h2>xxyzz</h2>
   <p>Respect my authoritah!</p>
@@ -15,7 +109,6 @@ pagination:
     <li><a href="#blog">Blog</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="about">About</a></li>
-    <li><a href="/feed.xml">RSS</a></li>
   </ul>
 </header>
 <div class="blog" id="blog">
