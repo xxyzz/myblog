@@ -2,6 +2,37 @@
 <html lang="en">
   {% include head.html %}
   <body>
+  	<header>
+		{% if page.url != '/index.html' %}
+			<a href="/" class="mdl-button mdl-button--fab">
+				<svg viewBox="0 0 24 24">
+					<path d="M9.984 20.016h-4.969v-8.016h-3l9.984-9 9.984 9h-3v8.016h-4.969v-6h-4.031v6z"></path>
+				</svg>
+			</a>
+		{% endif %}
+		{% if page.url == '/index.html' or page.url == '/about/' or page.url == '/404.html' %}
+			<a class="right mdl-button mdl-button--fab" href="/feed.xml" title="RSS">
+				<svg viewBox="0 0 24 24">
+					<path d="M3.984 10.078c5.484 0 9.938 4.453 9.938 9.938h-2.859c0-3.891-3.188-7.078-7.078-7.078v-2.859zM3.984 4.453c8.578 0 15.563 6.984 15.563 15.563h-2.813c0-7.031-5.719-12.75-12.75-12.75v-2.813zM3.984 17.813c0-1.219 0.984-2.156 2.203-2.156s2.156 0.938 2.156 2.156-0.938 2.203-2.156 2.203-2.203-0.984-2.203-2.203z"></path>
+				</svg>
+			</a>
+			{% else %}
+				<a class="right mdl-button mdl-button--fab" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" target="_blank" rel="noopener" title="Share on Twitter">
+					<svg viewBox="0 0 24 24">
+						<path d="M18 16.078c1.594 0 2.906 1.313 2.906 2.906s-1.313 2.953-2.906 2.953-2.906-1.359-2.906-2.953c0-0.234 0-0.469 0.047-0.656l-7.078-4.125c-0.563 0.516-1.266 0.797-2.063 0.797-1.641 0-3-1.359-3-3s1.359-3 3-3c0.797 0 1.5 0.281 2.063 0.797l7.031-4.078c-0.047-0.234-0.094-0.469-0.094-0.703 0-1.641 1.359-3 3-3s3 1.359 3 3-1.359 3-3 3c-0.797 0-1.5-0.328-2.063-0.844l-7.031 4.125c0.047 0.234 0.094 0.469 0.094 0.703s-0.047 0.469-0.094 0.703l7.125 4.125c0.516-0.469 1.219-0.75 1.969-0.75z"></path>
+				</svg>
+				</a>
+		{% endif %}
+		<h3>{{ page.title }}</h3>
+		{% if page.date %}<p>{{ page.date | date: "%b %-d, %Y" }}</p>{% else %}<p>Respect my authoritah!</p>{% endif %}
+		{% if page.url == '/index.html' %}
+			<ul>
+			    <li><a href="#blog">Blog</a></li>
+			    <li><a href="#contact">Contact</a></li>
+			    <li><a href="about">About</a></li>
+			</ul>
+		{% endif %}
+	</header>
     {{ content }}
   </body>
 </html>

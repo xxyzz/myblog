@@ -1,17 +1,6 @@
 ---
 layout: default
 ---
-<header>
-	<a href="/">
-		<button class="mdl-button mdl-button--fab"><i class="material-icons">home</i></button>
-	</a>
-	<a class="right" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" target="_blank" title="Share on Twitter">
-		<button class="mdl-button mdl-button--fab"><i class="material-icons">share</i></button>
-	</a>
-	<h1 class="slidein">{{ page.title }}</h1>
-	{% if page.date %}<p>{{ page.date | date: "%b %-d, %Y" }}</p>{% else %}<p>Respect my authoritah!</p>{% endif %}
-</header>
-
 <article>
 	{{ content }}
 </article>

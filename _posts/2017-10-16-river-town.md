@@ -7,15 +7,15 @@ comments: true
 ---
 [Two month ago]({% post_url 2017-08-19-oracle %}) I read the Chinese version of *Oracle Bones*, that book has many translation errors and typos. Furthermore, it's an abridged book. So I choose English version this time, no need to worry about translation and censorship. It took me about a month, that's totally worth it.
 
-[*River Town*](https://www.amazon.com/River-Town-Years-Yangtze-P-S-ebook/dp/B0046ZREEA){:target="_blank"} documents Peter Hessler's Peace Corps teaching assignment in Fuling. This book always reminds me of my last semester's foreign teacher, who also didn't choose to live in Beijing or Shanghai because there are too many *laowai*.
+[*River Town*](https://www.amazon.com/River-Town-Years-Yangtze-P-S-ebook/dp/B0046ZREEA){:target="_blank" rel="noopener"} documents Peter Hessler's Peace Corps teaching assignment in Fuling. This book always reminds me of my last semester's foreign teacher, who also didn't choose to live in Beijing or Shanghai because there are too many *laowai*.
 
 >As far as foreigners were concerned, Fuling was our city—or it would be once we figured it out.
 >
 -- <cite>River Town</cite>
 
-Although what the book covers is more than 20 years ago and China has developed rapidly in these years, but the people and the culture are still the same ~~maybe even worse~~. He has witnessed two important exents happended in China during that time: the construction of [the Three Gorges Dam](https://www.wikiwand.com/en/Three_Gorges_Dam){:target="_blank"} and [the Handover of Hong Kong](https://www.wikiwand.com/en/Transfer_of_sovereignty_over_Hong_Kong){:target="_blank"}. I don't know much about them neither before.
+Although what the book covers is more than 20 years ago and China has developed rapidly in these years, but the people and the culture are still the same ~~maybe even worse~~. He has witnessed two important exents happended in China during that time: the construction of [the Three Gorges Dam](https://www.wikiwand.com/en/Three_Gorges_Dam){:target="_blank" rel="noopener"} and [the Handover of Hong Kong](https://www.wikiwand.com/en/Transfer_of_sovereignty_over_Hong_Kong){:target="_blank" rel="noopener"}. I don't know much about them neither before.
 
-# The Dam
+#### The Dam
 
 It was under construction since 1994; the reservoir was filled and the first generator started in 2003; the dam body was completed in 2006; completed and fully functional in 2012(except the locks); the ship lift was complete in 2015.[^1]
 
@@ -51,32 +51,32 @@ TGD also affects temperature and rainfall. The temperature decreased by an avera
 
 There are stuides about TGD's influence on Poyang Lake's water shortage.[^10] [^11] That power is definitely not free. 🙁 But electricity demend must meet, and you can't tear it down, that's waste of money and will cause more issues. 🤷‍
 
-# The Handover
+#### The Handover
 
-On 30 June 1997, all classes were canceled at He Wei's college. Students were forced to watch ten houres tv untill midnight and the dormitory was locked. It was like a holiday, but for CCP. Now we have another similar holiday to celebrate: [19th National Congress](https://www.wikiwand.com/en/19th_National_Congress_of_the_Communist_Party_of_China){:target="_blank"}. As for Hong Kong, after 20 years, it finally has its first prisoners of consciences.[^12] Now we can say Hong Kong is really returned. A few days ago, Hong Kong football fans boo and turned their backs during the Chinese anthem. In mainland China, a new [anthem law](https://www.wikiwand.com/zh/中华人民共和国国歌法){:target="_blank"} just took effect on Oct. 1. That law will award you 15 days in jail if you mock the authem; alterate the lyrics or the parodies. It has not applied to Hong Kong now, but who know the future. By the way, [Tian Han](https://www.wikiwand.com/en/Tian_Han){:target="_blank"} was died in jail during the Cultural Revolution, maybe he shouldn't mocked the authem.
+On 30 June 1997, all classes were canceled at He Wei's college. Students were forced to watch ten houres tv untill midnight and the dormitory was locked. It was like a holiday, but for CCP. Now we have another similar holiday to celebrate: [19th National Congress](https://www.wikiwand.com/en/19th_National_Congress_of_the_Communist_Party_of_China){:target="_blank" rel="noopener"}. As for Hong Kong, after 20 years, it finally has its first prisoners of consciences.[^12] Now we can say Hong Kong is really returned. A few days ago, Hong Kong football fans boo and turned their backs during the Chinese anthem. In mainland China, a new [anthem law](https://www.wikiwand.com/zh/中华人民共和国国歌法){:target="_blank" rel="noopener"} just took effect on Oct. 1. That law will award you 15 days in jail if you mock the authem; alterate the lyrics or the parodies. It has not applied to Hong Kong now, but who know the future. By the way, [Tian Han](https://www.wikiwand.com/en/Tian_Han){:target="_blank" rel="noopener"} was died in jail during the Cultural Revolution, maybe he shouldn't mocked the authem.
 
-# References
+#### References
 
-[^1]: [Three Gorges Dam](https://www.wikiwand.com/en/Three_Gorges_Dam){:target="_blank"}
+[^1]: [Three Gorges Dam](https://www.wikiwand.com/en/Three_Gorges_Dam){:target="_blank" rel="noopener"}
 
-[^2]: [Construction of the Three Gorges Project and Ecological Protection](http://en.chinagate.cn/reports/2007-12/05/content_9348644.htm){:target="_blank"}
+[^2]: [Construction of the Three Gorges Project and Ecological Protection](http://en.chinagate.cn/reports/2007-12/05/content_9348644.htm){:target="_blank" rel="noopener"}
 
-[^3]: [List of countries by electricity consumption](https://www.wikiwand.com/en/List_of_countries_by_electricity_consumption){:target="_blank"}
+[^3]: [List of countries by electricity consumption](https://www.wikiwand.com/en/List_of_countries_by_electricity_consumption){:target="_blank" rel="noopener"}
 
-[^4]: [List of largest power stations](https://www.wikiwand.com/en/List_of_largest_power_stations){:target="_blank"}
+[^4]: [List of largest power stations](https://www.wikiwand.com/en/List_of_largest_power_stations){:target="_blank" rel="noopener"}
 
-[^5]: [Rise of the Three Gorges Dam](https://svs.gsfc.nasa.gov/vis/a000000/a003400/a003433){:target="_blank"}
+[^5]: [Rise of the Three Gorges Dam](https://svs.gsfc.nasa.gov/vis/a000000/a003400/a003433){:target="_blank" rel="noopener"}
 
-[^6]: [Three Gorges Dam Brings Power, Concerns to Central China](https://www.usgs.gov/news/earthview-three-gorges-dam-brings-power-concerns-central-china){:target="_blank"}
+[^6]: [Three Gorges Dam Brings Power, Concerns to Central China](https://www.usgs.gov/news/earthview-three-gorges-dam-brings-power-concerns-central-china){:target="_blank" rel="noopener"}
 
-[^7]: [A study on the relationship between water levels and seismic activity in the Three Gorges reservoir](http://probeinternational.org/library/wp-content/uploads/2011/06/3-Gorges-Report-26-5.pdf){:target="_blank"}
+[^7]: [A study on the relationship between water levels and seismic activity in the Three Gorges reservoir](http://probeinternational.org/library/wp-content/uploads/2011/06/3-Gorges-Report-26-5.pdf){:target="_blank" rel="noopener"}
 
-[^8]: [三峡库区地震活动与坝前水位关系研究](http://probeinternational.org/library/wp-content/uploads/2011/06/RIS-at-TG-Complete-study-PDF-1.pdf){:target="_blank"}
+[^8]: [三峡库区地震活动与坝前水位关系研究](http://probeinternational.org/library/wp-content/uploads/2011/06/RIS-at-TG-Complete-study-PDF-1.pdf){:target="_blank" rel="noopener"}
 
-[^9]: [NASA Satellites Watch as China Constructs Giant Dam](https://www.nasa.gov/centers/goddard/news/topstory/2007/dam_construct.html){:target="_blank"}
+[^9]: [NASA Satellites Watch as China Constructs Giant Dam](https://www.nasa.gov/centers/goddard/news/topstory/2007/dam_construct.html){:target="_blank" rel="noopener"}
 
-[^10]: [Linkage  between Three Gorges Dam impacts and the dramatic recessions in China’s largest freshwater lake, Poyang Lake](https://www.nature.com/articles/srep18197.pdf){:target="_blank"}
+[^10]: [Linkage  between Three Gorges Dam impacts and the dramatic recessions in China’s largest freshwater lake, Poyang Lake](https://www.nature.com/articles/srep18197.pdf){:target="_blank" rel="noopener"}
 
-[^11]: [Analysis of Poyang Lake water balance and its indication of river–lake interaction](https://sci-hub.io/10.1186/s40064-016-3239-5){:target="_blank"}
+[^11]: [Analysis of Poyang Lake water balance and its indication of river–lake interaction](https://sci-hub.io/10.1186/s40064-016-3239-5){:target="_blank" rel="noopener"}
 
-[^12]: [Prisoner of conscience](https://www.wikiwand.com/en/Prisoner_of_conscience#/Hong_Kong){:target="_blank"}
+[^12]: [Prisoner of conscience](https://www.wikiwand.com/en/Prisoner_of_conscience#/Hong_Kong){:target="_blank" rel="noopener"}

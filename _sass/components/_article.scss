@@ -1,22 +1,10 @@
 /* ==========================================================================
    Article
    ========================================================================== */
-
-header {
-  h1 {
-    margin: 0.5em auto;
-  }
-}
-
 article {
   margin: 5% auto;
   font-size: 1.2em;
   color: #5b4636;
-
-  h1 {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
 
   img {
     margin: 0 auto;
@@ -30,16 +18,16 @@ article {
     justify-content: space-between;
     margin: 12px 15px;
 
-    a button, a span {
+    a {
       vertical-align: middle;
     }
 
     .newer {
-      margin-right: 16px;
+      margin-left: 16px;
     }
 
     .older {
-      margin-left: 16px;
+      margin-right: 16px;
     }
   }
 

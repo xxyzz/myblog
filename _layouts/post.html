@@ -6,17 +6,29 @@ layout: page
 
 <div class="pagination">
   {% if page.next.url %}
-    <a href="{{ page.next.url }}" title="{{page.next.title}}">
-      <button class="mdl-button mdl-button--fab newer"><i class="material-icons">arrow_back</i></button>
-      <span>Newer</span>
-    </a>
+    <div>
+      <a class="mdl-button mdl-button--fab" href="{{ page.next.url }}" title="{{page.next.title}}">
+        <svg viewBox="0 0 24 24">
+          <path d="M20.016 11.016v1.969h-12.188l5.578 5.625-1.406 1.406-8.016-8.016 8.016-8.016 1.406 1.406-5.578 5.625h12.188z"></path>
+        </svg>
+      </a>
+      <a class="newer" href="{{ page.next.url }}" title="{{page.next.title}}">
+        Newer
+      </a>
+    </div>
   {% endif %}
   <div></div>
   {% if page.previous.url %}
-    <a href="{{ page.previous.url }}" title="{{page.previous.title}}">
-      <span>Older</span>
-      <button class="mdl-button mdl-button--fab older"><i class="material-icons">arrow_forward</i></button>
-    </a>
+    <div>
+      <a class="older" href="{{ page.previous.url }}" title="{{page.previous.title}}">
+        Older
+      </a>
+      <a class="mdl-button mdl-button--fab" href="{{ page.previous.url }}" title="{{page.previous.title}}">
+        <svg viewBox="0 0 24 24">
+          <path d="M12 3.984l8.016 8.016-8.016 8.016-1.406-1.406 5.578-5.625h-12.188v-1.969h12.188l-5.578-5.625z"></path>
+        </svg>
+      </a>
+    </div>
   {% endif %}
 </div>
 
