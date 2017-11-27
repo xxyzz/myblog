@@ -37,6 +37,8 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-last-modified-at
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem

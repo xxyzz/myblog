@@ -15,7 +15,7 @@ before_script:
   - npm install -g firebase-tools
 
 script:
-  - jekyll build
+  - JEKYLL_ENV=production bundle exec jekyll build
 
 after_success:
   - firebase deploy --token "$FIREBASE_TOKEN" --non-interactive

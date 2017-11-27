@@ -85,4 +85,10 @@ article {
       padding: 12px 18px;
     }
   }
+
+  .fadeout {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+  }
 }
