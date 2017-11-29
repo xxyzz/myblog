@@ -9,3 +9,6 @@ I have only read half of the book in a month and I have not write any post yetðŸ
 
 I applied my driver's license after the college entrance examination, it took me a whole summer vacation. In order to get it done before the start of school, I chose a "VIP class", which can get the license more quickly and of course cost more money. 
 
+The first test comprises 100 questions, there are 40 true or false questions and 60 multiple choice questions. You need to answer correctly at least 90 questions to pass. Before the test I practiced many times online, and most of time I failed. I just finished the college exam, how can I foucus on these shit? But in the examination room, the proctor told us that the test program will select the correct option because we are the "VIP" and we better not get a 100 score. So I choosed two wrong answers.
+
+The second test actually was the proctor pass it, I just sat there steped on the accelerator. Then I had to drive 300 kilometers with a coach, there was a brake on his side. The finall test I was on my own, very esay.

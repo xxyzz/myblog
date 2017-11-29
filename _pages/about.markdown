@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /about/
 comments: true
 ---
 Student, Linux user, South Park fan, bibliophile.
