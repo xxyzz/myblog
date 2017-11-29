@@ -24,17 +24,9 @@
   <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
   {% if paginator %}
     <style type="text/css">
-      @media screen and (max-width: 439px) {
-        .articles p {
-          display: none;
-        }
-        .articles {
-          justify-content: center;
-        }
-      }
-
       @media screen and (min-width: 440px) {
         .articles {
+          display: flex;
           justify-content: space-between;
         }
       }
@@ -71,14 +63,22 @@
       }
 
       .contact ul {
+        list-style: none;
         text-align: center;
         font-size: 1.4rem;
       }
 
       .articles {
-        display: flex;
+        list-style: none;
         align-items: center;
+        padding-bottom: 3%;
+      }
+
+      .articles p {
         white-space: nowrap;
+      }
+
+      .articles a {
         font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
       }
 
