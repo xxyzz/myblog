@@ -56,12 +56,37 @@ h5 {
 }
 
 header {
-  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
-  background: #9C27B0;
-  background: linear-gradient(to bottom, #9C27B0, #3F51B5);
+  background: #3F51B5;
   padding: 8%;
   color: #fff;
+  position: relative;
+  z-index: 0;
+}
+
+.edge-bottom::after {
+  bottom: 0;
+  -webkit-transform: skewY(-1.5deg);
+  transform: skewY(-1.5deg);
+  -webkit-transform-origin: 100%;
+  transform-origin: 100%;
+}
+
+.edge-top::before {
+  top: 0;
+  -webkit-transform: skewY(1.5deg);
+  transform: skewY(1.5deg);
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+
+.edge-bottom::after, .edge-top::before {
+  background: inherit;
+  position: absolute;
+  content: '';
+  height: 50%;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
 
 header p {

@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="theme-color" content="#9C27B0">
+  <meta name="theme-color" content="#3F51B5">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="{% if page.ogImage %}summary_large_image{% else %}summary{% endif %}" />
   <meta name="twitter:title" content="{{ page.title }}" />
@@ -33,20 +33,20 @@
 
       body {
         color: #fff;
-        background: #2196F3;
-        background: linear-gradient(to bottom, #2196F3, #4CAF50);
+        background: #8BC34A;
       }
 
       .blog {
         padding: 8%;
+        background: #2196F3;
+        background: linear-gradient(to bottom, #2196F3, #4CAF50);
       }
 
       .contact {
-        -webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
-        clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
         background: #8BC34A;
-        background: linear-gradient(to bottom, #8BC34A, #FFEB3B);
         padding: 8%;
+        position: relative;
+        z-index: 0;
       }
 
       header li, .contact li {
