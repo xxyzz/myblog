@@ -44,7 +44,7 @@ Wei Ziqi joined the party for his business. He needs the local party members' su
 # Reading Progress
 *Country Driving*: 59%
 
-[*大棋局中的国共关系*](https://www.amazon.cn/%E5%A4%A7%E6%A3%8B%E5%B1%80%E4%B8%AD%E7%9A%84%E5%9B%BD%E5%85%B1%E5%85%B3%E7%B3%BB-%E5%90%95%E8%BF%85/dp/B015SS5Z0S){:target="_blank" rel="noopener"}: 27%
+[*Butterfly and Dragonfly*](https://www.amazon.com/Butterfly-Dragonfly-Civil-1944-1950-Chinese/dp/7509772346){:target="_blank" rel="noopener"}: 27%
 
 # References
 [^1]: [China: 'ruthless' campaign to evict Beijing's migrant workers condemned ](https://www.theguardian.com/world/2017/nov/27/china-ruthless-campaign-evict-beijings-migrant-workers-condemned){:target="_blank" rel="noopener"}

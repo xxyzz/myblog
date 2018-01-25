@@ -2,7 +2,7 @@
 layout: post
 title: "Country Driving: 2"
 date: 2017-12-30
-description: "Factory towns"
+description: "Works and entrepreneurs in Chinese factory towns. Development Zone and specialty towns"
 comments: true
 ---
 In book III, Ho Wei went to some factory towns in southern China. He found a bra ring factory in [Lishui](https://www.google.com/maps/place/Lishui,+Zhejiang,+China){:target="_blank" rel="noopener"}. Unlike the dying villages in northwest China, these south towns were full of energy and opportunities. People rushed in, factories sprout up. Even mountains can't slow down the change of landscape.
