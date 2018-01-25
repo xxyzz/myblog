@@ -1,18 +1,24 @@
 {% if page.comments %}
-<div style="text-align: center;">
+<div class="center-text">
   <button id="load_disqus" class="mdl-button mdl-button--raised">load commonts</button>
 </div>
-<div id="disqus_thread"></div>
+<div id="disqus_thread" class="center-text"></div>
 <script>
 var disqus_config = function () {
 this.page.url = "https://xxyzz.me{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
 this.page.identifier = "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 function disqus() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
+var d = document, s = d.createElement('script'), wall = true;
 s.src = 'https://xxyzz.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
+s.onload = function(){wall = false};
+setTimeout(function(){
+  let strong = d.createElement('strong');
+  strong.appendChild(d.createTextNode("Big brother is fucking you."));
+  if (wall) d.getElementById("disqus_thread").appendChild(strong);
+  }, 3000)
 };
 document.getElementById("load_disqus").addEventListener('click', function() {
     document.getElementById('load_disqus').className += ' fadeout';
