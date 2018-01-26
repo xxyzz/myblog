@@ -33,11 +33,12 @@ article {
 
   p, .video-container {
     margin-bottom: 1.5rem;
+    line-height: 28px;
   }
 
   .video-container {
-      position: relative;
-      padding-bottom: 56.25%;
+    position: relative;
+    padding-bottom: 56.25%;
   }
 
   .video-container iframe,

@@ -15,7 +15,7 @@ comments: true
 
 Although what the book covers is more than 20 years ago and China has developed rapidly in these years, but the people and the culture are still the same ~~maybe even worse~~. He has witnessed two important exents happended in China during that time: the construction of [the Three Gorges Dam](https://www.wikiwand.com/en/Three_Gorges_Dam){:target="_blank" rel="noopener"} and [the Handover of Hong Kong](https://www.wikiwand.com/en/Transfer_of_sovereignty_over_Hong_Kong){:target="_blank" rel="noopener"}. I don't know much about them neither before.
 
-#### The Dam
+### The Dam
 
 It was under construction since 1994; the reservoir was filled and the first generator started in 2003; the dam body was completed in 2006; completed and fully functional in 2012(except the locks); the ship lift was complete in 2015.[^1]
 
@@ -51,11 +51,11 @@ TGD also affects temperature and rainfall. The temperature decreased by an avera
 
 There are stuides about TGD's influence on Poyang Lake's water shortage.[^10] [^11] That power is definitely not free. 🙁 But electricity demend must meet, and you can't tear it down, that's waste of money and will cause more issues. 🤷‍
 
-#### The Handover
+### The Handover
 
 On 30 June 1997, all classes were canceled at He Wei's college. Students were forced to watch ten houres tv untill midnight and the dormitory was locked. It was like a holiday, but for CCP. Now we have another similar holiday to celebrate: [19th National Congress](https://www.wikiwand.com/en/19th_National_Congress_of_the_Communist_Party_of_China){:target="_blank" rel="noopener"}. As for Hong Kong, after 20 years, it finally has its first prisoners of consciences.[^12] Now we can say Hong Kong is really returned. A few days ago, Hong Kong football fans boo and turned their backs during the Chinese anthem. In mainland China, a new [anthem law](https://www.wikiwand.com/zh/中华人民共和国国歌法){:target="_blank" rel="noopener"} just took effect on Oct. 1. That law will award you 15 days in jail if you mock the authem; alterate the lyrics or the parodies. It has not applied to Hong Kong now, but who know the future. By the way, [Tian Han](https://www.wikiwand.com/en/Tian_Han){:target="_blank" rel="noopener"} was died in jail during the Cultural Revolution, maybe he shouldn't mocked the authem.
 
-#### References
+### References
 
 [^1]: [Three Gorges Dam](https://www.wikiwand.com/en/Three_Gorges_Dam){:target="_blank" rel="noopener"}
 

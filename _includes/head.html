@@ -24,7 +24,7 @@
   <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
   {% if paginator %}
     <style type="text/css">
-      @media screen and (min-width: 500px) {
+      @media screen and (min-width: 700px) {
         .articles {
           display: flex;
           justify-content: space-between;
@@ -38,7 +38,6 @@
 
       .blog {
         padding: 8%;
-        background: #2196F3;
         background: linear-gradient(to bottom, #2196F3, #4CAF50);
       }
 
@@ -71,15 +70,10 @@
       .articles {
         list-style: none;
         align-items: center;
-        padding-bottom: 3%;
       }
 
       .articles p {
         white-space: nowrap;
-      }
-
-      .articles a {
-        font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
       }
 
       .pagination li.disabled a {
@@ -124,7 +118,7 @@
       }
     </style>
   {% endif %}
-  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <script>
