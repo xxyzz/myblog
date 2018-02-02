@@ -27,10 +27,10 @@ twitterUsername: Northeast_Park
 # Build settings
 markdown: kramdown
 
-#permalink: /:year/:month/:title
+permalink: pretty
 markdown: kramdown
 include: [_pages]
-exclude: [_site, CHANGELOG.md, LICENSE, README.md]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md, Gemfile, Gemfile.lock]
 sass:
   style: compressed
 
