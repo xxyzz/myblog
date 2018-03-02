@@ -4,9 +4,8 @@
 @charset "utf-8";
 
 // Helpers
-//@import
-//  'helpers/variables',
-//  'helpers/mixins';
+@import
+ 'helpers/variables';
 
 // Base
 @import
@@ -18,5 +17,5 @@
   'components/article';
 
 // Vendor
-//@import
-//  'vendor/syntax-highlighting';
+@import
+ 'vendor/syntax-highlighting';
