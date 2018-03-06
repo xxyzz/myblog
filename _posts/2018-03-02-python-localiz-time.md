@@ -53,5 +53,9 @@ notification_time = utc_datetime.time()
 11:00:00
 {% endhighlight %}
 
+I didn't notice that free Heroku dynos sleep after 30 minutes of inactivity[^2], so most daily notifications will never send. You can upgrade to Hobby or try [Kaffeine](https://kaffeine.herokuapp.com/){:target="_blank" rel="noopener"}.
+
 ### References
 [^1]: [strftime() and strptime() Behavior](https://docs.python.org/3.6/library/datetime.html#strftime-and-strptime-behavior){:target="_blank" rel="noopener"}
+
+[^2]: [Free Dyno Hours](https://devcenter.heroku.com/articles/free-dyno-hours){:target="_blank" rel="noopener"}
