@@ -9,3 +9,4 @@ In 1988, the WWF authorized [George Schaller](https://en.wikipedia.org/wiki/Geor
 
 ### Bamboo blossom
 
+Most bamboos blossom at intervals of many years, then they die. Maybe that's bamboo's survival strategy, blossoming and fruiting at the same time will make sure some seeds will survival. The interesting thing is that even you move a bamboo to another continent, it will still blossom contemporary with its cohort. They spread widely through their rhizomes, that's why usually an entire mountain or a region's bamboos blossom simultaneously. If you plant bamboo in a garden, you need to keep pruning the roots or eating the shoots to control their spread. 😂
