@@ -75,6 +75,8 @@
 .highlighter-rouge {
   background: #fafafa;
   color: $c__light-grey;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 0.2em 0.4em;
+  display: inline-block;
+  vertical-align: middle;
 }
