@@ -5,9 +5,11 @@
   padding: 16px;
   background: #fafafa;
   color: #000;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-bottom: 1.5rem;
   overflow: auto;
+  border: 1px solid #eaecf0;
+
 
     .c     { color: #998; font-style: italic } // Comment
     .err   { color: #a61717; background-color: #e3d2d2 } // Error
@@ -76,7 +78,8 @@
   background: #fafafa;
   color: $c__light-grey;
   border-radius: 5px;
-  padding: 0.2em 0.4em;
+  padding: 0 0.4em;
   display: inline-block;
   vertical-align: middle;
+  border: 1px solid #eaecf0;
 }
