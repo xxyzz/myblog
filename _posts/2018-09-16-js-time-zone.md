@@ -2,7 +2,7 @@
 layout: post
 title: "JS time zone"
 date: 2018-09-16
-description: "Don't forget to add letter 'Z' to UTC ISO date formats string in JavaScript."
+description: "Don't forget to add letter 'Z' to UTC ISO date formats string in JavaScript and dont't use dateString to create Date objects."
 comments: true
 ---
 I have been confused by converting time zones in Angular for several days, it turns out that UTC ISO date formats need to add a letter "Z" at the end which means zero offset[^1]. So what happens if we left it out? ~~(You get f**ked!)~~
@@ -65,15 +65,17 @@ Safari doesn't care the letter "Z" at all, it will convert to your local time zo
 
 So you must add the letter "Z". Then use [`toLocaleString()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString), we can convert UTC to your local time zone with formate. `toLocaleString()` will use your local time zone by default unless you set the `timezone` option[^2].
 
-If you want to create a UTC `Date` object, you should use [`Date.UTC()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC).
+### Miscellaneous
 
-If you want to get the local time zone name, use this:
+- If you want to create a UTC `Date` object, you should use [`Date.UTC()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC).
+
+- If you want to get the local time zone name, use this:
 {% highlight javascript %}
 Intl.DateTimeFormat().resolvedOptions().timeZone;
 // output: "Asia/Shanghai"
 {% endhighlight %}
 
-If you want to get the offset times, use `getTimezoneOffset()`:
+- <p>If you want to get the offset times, use <code class="highlighter-rouge">getTimezoneOffset()</code>:</p>
 {% highlight javascript %}
 new Date().getTimezoneOffset();
 // output: -480
@@ -88,6 +90,14 @@ In this case, it means that UTC time is **after** the local time(UTC+8) **480 mi
 
 In Angular, if you use Datepipe, it will convert to your local time by default. But you can also set it manually, by passing the `timezone` parameter. For example, `"+0800"` means the local time is 8 hours before UTC time[^4].
 
+### Conclusion
+
+Don't use `dateString` to create `Date` objects, as MDN noted:
+
+>parsing of date strings with the `Date` constructor (and `Date.parse`, they are equivalent) is **strongly discouraged** due to browser differences and inconsistencies. Support for RFC 2822 format strings is by convention only. Support for ISO 8601 formats differs in that date-only strings (e.g. "1970-01-01") are treated as UTC, not local.
+>
+-- <cite>MDN[^5]</cite>
+
 You see, I've learned something today, yesterday and the day before yesterday: \*\*\*\*
 
 ### References
@@ -98,3 +108,5 @@ You see, I've learned something today, yesterday and the day before yesterday: \
 [^3]: [Date.prototype.getTimezoneOffset()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset)
 
 [^4]: [DatePipe](https://angular.io/api/common/DatePipe)
+
+[^5]: [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
