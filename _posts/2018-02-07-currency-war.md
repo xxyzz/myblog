@@ -20,6 +20,7 @@ Then they went to foreign banks in Shanghai to convert the Legal Tender into har
 The Nationalist government printed Legal Tender endlessly as a result of Sino-Japanese War and lack of the US economic aid. The supply of Legal Tender from less than 1,400 million yuan in 1937 increased to 660 trillion yuan in August 1948[^4]. [Chiang Kai-shek](https://en.wikipedia.org/wiki/Chiang_Kai-shek){:target="_blank" rel="noopener noreferrer"} put his last hope on currency reform to replace Legal Tender with Gold Yuan notes.
 
 ![10000 Yuan Legal Tender 1947](https://www.banknotes.com/cn318.jpg)
+
 Ten Thousand Legal Tender Yuan, printed in 1947. The portrait is [Sun Yat-sen](https://www.wikiwand.com/en/Sun_Yat-sen){:target="_blank" rel="noopener noreferrer"}.
 
 ### Gold Yuan Notes
@@ -28,12 +29,14 @@ On 8 August 1948, the Nationalist government issued [Gold Yun notes](https://www
 Meanwhile, the Communist Party gradually reversed the situation, they banned the Gold Yuan since June 1949[^5]. In May 1949, the KMT retreated to Guangzhou. They printed another waster paper: [Silver Dollar Notes](https://www.wikiwand.com/zh-hans/%E9%8A%80%E5%9C%93%E5%88%B8){:target="_blank" rel="noopener noreferrer"}.
 
 ![500000 Gold Yuan 1949](https://www.banknotes.com/cn424e.jpg)
+
 Five Hundred Thousand Gold Yuan, printed in 1949. The portrait is Chiang Kai-shek.
 
 ### Bianbi
 On 1 January 1941, Shaan-Gan-Ning border region government issued [Bianbi](https://www.wikiwand.com/zh-hans/%E8%BE%B9%E5%B8%81){:target="_blank" rel="noopener noreferrer"}(边币). The Shaan-Gan-Ning government banned Legal Tender and made Bianbi the only legal tender in the border region. At first, one Bianbi was equal to one Legal tender. But since the second half of 1943, the border region government also printed numerous waster paper. The civil war was destructive, but our clever comrades soon found a way: they sold *special goods*(特货)[^7]. *Special goods* are opium[^8][^9]. The opium trade was important to the CPC's finances in the 1940s when the KMT stopped funding [the Eighth Route Army](https://www.wikiwand.com/en/Eighth_Route_Army){:target="_blank" rel="noopener noreferrer"}(What?!) and imposed an economic blockade on the border region. From September 1937 to October 1938, the KMT gave the Eighth Route Army 614,000 yuan each month[^10]. Wow! I didn't know that before. But wait, that happened after [Xi'an Incident](https://www.wikiwand.com/en/Xi%27an_Incident){:target="_blank" rel="noopener noreferrer"}[^11].
 
 ![10 Yuan 1943 Bank of Shansi Chahar & Hopei. Local currency.](https://www.banknotes.com/CNS3160.JPG)
+
 Ten Bianbi yuan, printed in 1943.
 
 The People's Bank of China issued the [renminbi](https://www.wikiwand.com/en/Renminbi){:target="_blank" rel="noopener noreferrer"} in December 1948. In December 1953, the largest denomination of [the first series of the renminbi](https://www.wikiwand.com/en/First_series_of_the_renminbi){:target="_blank" rel="noopener noreferrer"} had risen to 50,000 yuan[^12]. But don't worry, that's not a problem during the planned economy period.

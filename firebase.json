@@ -3,14 +3,8 @@
     "public": "_site",
     "ignore": [
       "firebase.json",
-      "**/.*"
-    ],
-    "headers": [ {
-      "source" : "**/*.@(jpg|jpeg|gif|png|ico|css)",
-      "headers" : [ {
-        "key" : "Cache-Control",
-        "value" : "max-age=2628000"
-      } ]
-    } ]
+      "**/.*",
+      "**/node_modules/**"
+    ]
   }
 }

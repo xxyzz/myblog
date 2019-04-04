@@ -5,8 +5,7 @@ date: 2018-09-16
 description: "Don't forget to add letter 'Z' to UTC ISO date formats string in JavaScript and dont't use dateString to create Date objects."
 comments: true
 ---
-I have been confused by converting time zones in Angular for several days, it turns out that UTC ISO date formats need to add a letter "Z" at the end which means zero offset[^1]. So what happens if we left it out? ~~(You get f**ked!)~~
-
+I have been confused by converting time zones in Angular for several days, it turns out that UTC ISO date formats need to add a letter "Z" at the end which means zero offset[^1]. So what happens if we left it out?
 ### In Firefox
 
 {% highlight javascript %}
