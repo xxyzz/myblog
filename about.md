@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-PGP: 0xBB5A1F3AC2E7459B
+GPG public key: [0xBB5A1F3AC2E7459B](https://pgp.mit.edu/pks/lookup?search=0xBB5A1F3AC2E7459B&op=vindex&fingerprint=on)

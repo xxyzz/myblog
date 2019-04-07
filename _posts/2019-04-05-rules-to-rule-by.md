@@ -15,4 +15,4 @@ Go read the book! It will let you understand the world better and blow your mind
 
 You might notice the blog theme is changed because I'm preparing to use the minima dark theme, but after three months there is still [not any progress](https://github.com/jekyll/minima/pull/335)...
 
-And I also generated a [PGP key](/about). It's way more convenient than I thought, not matter encrypt emails or sign commits are just as normal use.
+And I also generated a [GPG key](/about). It's way more convenient than I thought, not matter encrypt emails or sign commits are just as normal use.
