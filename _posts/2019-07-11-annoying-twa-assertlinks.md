@@ -17,9 +17,9 @@ TWA uses Digital Asset Links to verify the app and the site belongs to the same 
 
 The solution is to find Google's signing certificate fingerprint in the Google Play Console (Release management -> App signing), then copy the SHA-256 fingerprint to the `assertlinks.json` file.
 
-**Kahla TWA app is now available on Google Play.**
+Now we can upload Kahla TWA app to play store!
 
-<a href='https://play.google.com/store/apps/details?id=com.aiursoft.kahla'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.aiursoft.kahla'><img alt='Get it on Google Play' height=80 src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png'/></a>
 
 ### Read More
 
