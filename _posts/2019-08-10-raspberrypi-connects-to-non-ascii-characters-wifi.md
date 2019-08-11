@@ -31,7 +31,7 @@ Finally, copy this hex string to `/etc/wpa_supplicant/wpa_supplicant.conf` witho
 
 ## Or
 
-You can simply type the SSID to `/boot/wpa_supplicant.conf` inside the quotation marks, it works.
+You can simply type the SSID to `/boot/wpa_supplicant.conf` inside the quotation marks, it works. I have tried this before but didn't notice it failed because the SD card was dead.
 
 ## Read more
 
@@ -39,9 +39,9 @@ You can simply type the SSID to `/boot/wpa_supplicant.conf` inside the quotation
 
 - [Setting WiFi up via the command line - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
-- man xxd
+- `man xxd`
 
-- man hexdump
+- `man hexdump`
 
 - [Nigel Smith's Blog: hexdump and xxd output compared](http://nwsmith.blogspot.com/2012/07/hexdump-and-xxd-output-compared.html)
 
