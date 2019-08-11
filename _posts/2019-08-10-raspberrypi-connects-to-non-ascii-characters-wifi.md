@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Raspberry Pi connects to non-ASCII characters Wi-Fi"
-date: 2019-08-10
+date: 2019-08-11
 description: "Raspberry Pi connects to non-ASCII characters Wi-Fi"
 ---
 
-You can't connect to a Wi-Fi directly if it's SSID has any non-ASCII characters on Raspbian. For example, if your Wi-Fi's SSID is `开源大法好1234`, run the following command you will see this:
+You can't connect to a Wi-Fi directly if it's SSID has any non-ASCII characters on Raspbian in GUI mode. For example, if your Wi-Fi's SSID is `开源大法好1234`, run the following command you will see this:
 
 ```
 $ sudo iw wlan0 scan | grep 1234
@@ -29,6 +29,10 @@ e5bc80e6ba90e5a4a7e6b395e5a5bd31323334
 
 Finally, copy this hex string to `/etc/wpa_supplicant/wpa_supplicant.conf` without the quotation mark.
 
+## Or
+
+You can simply type the SSID to `/boot/wpa_supplicant.conf` inside the quotation marks, it works.
+
 ## Read more
 
 - [wifi - How do I configure wpa_supplicant with default iPhone SSID? - Raspberry Pi Stack Exchange](https://raspberrypi.stackexchange.com/questions/41069/how-do-i-configure-wpa-supplicant-with-default-iphone-ssid)
@@ -40,3 +44,5 @@ Finally, copy this hex string to `/etc/wpa_supplicant/wpa_supplicant.conf` witho
 - man hexdump
 
 - [Nigel Smith's Blog: hexdump and xxd output compared](http://nwsmith.blogspot.com/2012/07/hexdump-and-xxd-output-compared.html)
+
+- [Setting up a Raspberry Pi headless - Raspberry Pi Documentation](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
