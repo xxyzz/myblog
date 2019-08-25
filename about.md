@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-GPG public key: [0xBB5A1F3AC2E7459B](https://pgp.mit.edu/pks/lookup?search=0xBB5A1F3AC2E7459B&op=vindex&fingerprint=on)
+My GPG [public key](https://keys.openpgp.org/vks/v1/by-fingerprint/E34F51F91B1C8ABA053ECBB3BB5A1F3AC2E7459B)
 
 Blog [source code](https://github.com/xxyzz/myblog)
 
