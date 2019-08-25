@@ -1,12 +1,9 @@
 language: ruby
 cache: bundler
-rvm: 2.4
+rvm: 2.6
 
-install:
-- bundle install
-- gem install jekyll
-script:
-- JEKYLL_ENV=production bundle exec jekyll build
+install: bundle install
+script: JEKYLL_ENV=production bundle exec jekyll build
 deploy:
   provider: firebase
   token:
