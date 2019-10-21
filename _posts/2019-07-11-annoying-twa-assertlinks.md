@@ -46,5 +46,3 @@ The `assertlinks.json` file is placed in the `/.well-known/` folder, this locati
 - [Well-Known Uniform Resource Identifiers (URIs)](https://tools.ietf.org/html/rfc8615)
 
 - [Well-Known URIs](https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml)
-
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>

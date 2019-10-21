@@ -1,6 +1,7 @@
 # [My blog](https://xxyzz-f0041.web.app)
 
 [![Build Status](https://travis-ci.org/xxyzz/myblog.svg?branch=master)](https://travis-ci.org/xxyzz/myblog)
+[![CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 A Jekyll blog. Welcome pull requests!
 
@@ -12,4 +13,7 @@ A Jekyll blog. Welcome pull requests!
 
 3. Preview with drafts: `bundle exec jekyll server --drafts`.
 
-<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+[![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
