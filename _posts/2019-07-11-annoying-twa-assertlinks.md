@@ -21,8 +21,6 @@ The solution is to find Google's signing certificate fingerprint in the Google P
 
 Now we can upload Kahla TWA app to the play store! You can view the TWA project code on [Github](https://github.com/AiursoftWeb/Kahla-TWA).
 
-[![Get Kahla TWA app on Google Play](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.aiursoft.kahla)
-
 ## .well-known Folder
 
 The `assertlinks.json` file is placed in the `/.well-known/` folder, this location is defined by [RFC 8615](https://tools.ietf.org/html/rfc8615). You can see all the other well-known URLs on [INNA's website](https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml), like EFF's [`dnt-policy.txt`](https://www.eff.org/dnt-policy).
