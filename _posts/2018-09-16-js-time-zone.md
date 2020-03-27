@@ -87,6 +87,13 @@ These basters don't support `locales` and `options` parameters of `toLocaleStrin
 
 ### Miscellaneous
 
+- Get the current UTC time in ISO format:
+
+{% highlight javascript %}
+new Date().toISOString()
+// "2020-03-27T07:06:30.600Z"
+{% endhighlight %}
+
 - If you want to create a UTC `Date` object, you should use [`Date.UTC()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC).
 
 - If you want to get the local time zone name, use this:
