@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Port Primordia to Mac"
+title: "Port Primordia to Mac and Linux"
 date: 2020-09-05
 description: "Port Primordia or any other Adventure Game Studio games to macOS Catalina and Linux."
 ---
@@ -22,11 +22,14 @@ acsetup.cfg
 ags.icons
 audio.vox
 ENGV.tmp
+French.tra
 game.ags
+German.tra
+Spanish.tra
 speech.vox
 ```
 
-`ENGV.tmp` needs to be copied manually, `make` won't do it. I didn't replay the game to the end so I can't assure you it doesn't have any fatal bugs but looks fine. The only bug I encountered is the opening scene will hang at the second sentence, solution is hitting `ESC` to skip.
+`ENGV.tmp` and `.tra` files need to be copied manually. I didn't replay the game to the end so I can't assure you it doesn't have any fatal bugs but looks fine. The only bug I encountered is the opening scene will hang at the second sentence, solution is hitting `ESC` to skip.
 
 Port to Linux is easier. Using the pre-build engine from GitHub release or build it by yourself and give it `Primordia.exe`.
 
