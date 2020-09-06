@@ -2,20 +2,20 @@
 layout: post
 title: "Port Primordia to Mac"
 date: 2020-09-05
-description: "Port Primordia to macOS Catalina."
+description: "Port Primordia or any other Adventure Game Studio games to macOS Catalina and Linux."
 ---
 
-When I first played Primordia, that was before the language update and one week before macOS dropped support of 32-bit apps. I couldn't run it and the GOG support told me how to load the game with Wineskin. Now I can't play the updated game nor the old game because only Windows installer get updated and Wineskin has not been updated sine 2012. Err. Luckily, I found that I can build the game and run it without Wine.
+I didn't figure out how to run the Primordia game when I first played it, a GOG support staff told me how to load the game with Wineskin and that was before the game language update and one week before macOS dropped support of 32-bit apps. Now I can neither play the updated game nor the old one because only Windows installer get updated and the latest Wineskin was released in 2012, err.
 
-Primordia is based on Adventure Game Studio(AGS), which is an open source game engine and it supports macOS. Maybe the publisher \*bleep\* it up, this game should be working on Linux and macOS. What we need to do is extracting game files from the Windows installer and building a 64-bit app, kind like a ScummVM game.
+Luckily, I found that I can build the game and run it without Wine. Primordia is based on Adventure Game Studio(AGS), which is an open source cross-platform game engine. Maybe the publisher \*bleep\* up, this game should be working on Linux and macOS. What we need to do is extracting game files from the Windows installer and building a 64-bit app, kind like a ScummVM game.
 
-## Extract installer
+## Extract game files
 
-GOG uses Inno Setup to pack their Windows installers, which is also open sourced. There are some nice people build a tool called innoextract to unpack these installers. You can install it with Homebrew.
+GOG uses Inno Setup to pack their Windows installers, which is also open sourced. There are some nice people build a tool called innoextract to unpack them. You can install it with Homebrew.
 
-## Build app
+## Build engine
 
-Clone the AGS code. Follow the build steps in the README of folder `OSX`. You don't need Xcode, try `cmake` and `make` commands. After these commands completed, the `AGS.app/Contents/Resources` folder should have the following files:
+Rename file `Primordia.exe` to `game.ags`. Clone the AGS project and follow the steps in README of folder `OSX`. You don't need Xcode, try `cmake` and `make` commands. After `make` is done, the `AGS.app/Contents/Resources` folder should have the following files:
 
 ```
 acsetup.cfg
@@ -26,35 +26,39 @@ game.ags
 speech.vox
 ```
 
-The `ENGV.tmp` file needs to be copied manually, `make` won't copy it. Then you can enjoy the game. I didn't finish the game so I don't know if it has any bugs or not but looks fine. The only bug I encountered is the opening scene will hang at the second sentence, solution is hitting `ESC` to skip.
+`ENGV.tmp` needs to be copied manually, `make` won't do it. I didn't replay the game to the end so I can't assure you it doesn't have any fatal bugs but looks fine. The only bug I encountered is the opening scene will hang at the second sentence, solution is hitting `ESC` to skip.
+
+Port to Linux is easier. Using the pre-build engine from GitHub release or build it by yourself and give it `Primordia.exe`.
 
 ## Laggy terminal
 
-An interesting phenomenon I noticed is that the terminal feels laggy when I `cd` to the `ags` folder and Emacs is laggy too. In fact, neither zsh nor Emacs is slow, it's git! Try `git status` and you will know. Those huge game files should be tracked by git-lfs. The solution is to disable some git features of oh-my-zsh and Emacs.
+An interesting phenomenon I noticed is that the terminal feels laggy when I enter commands in the AGS repo and Emacs is laggy too. In fact, neither zsh nor Emacs is slow, it's git! Try `git status` and you will know. Those huge game files should be tracked by git-lfs. The solution is to disable some git features of oh-my-zsh and Emacs.
 
 ## ...
 
-Thanks to all these amazing people for their open source projects, I can still play this game and didn't get robbed. I have always believed that if a software is not get updated, it's deemed to be broken sooner or later. In my case, one week. No commercial company can survive forever but the community can. Therefore I regard selling software without any update as robbery. I'm talking about you, Android! And DRM is just rape.
+Thanks to all these amazing people for their open source projects, I can still play this game and didn't get robbed. I have always believed that any software is deemed to be broken sooner or later if it doesn't receive any update. In my case, one week. No commercial company can survive forever but the community can. Therefore I regard selling executable files without an update guarantee longer than three years as robbery. I'm talking about you, Android! And DRM is just rape.
 
-It's hard to imagine the developer of a product can't control it. The struggle of Wormwood Studios to push their patch reminds me a funny story in *Cryptonomicon*: Randy wrote a game and Avid wanted to buy it but Andrew thought he has the right of the game and sued Randy. Then the university said they also hold the right of the game because Randy developed the game on the university's computer. The real life game industry is much messier then this. Part of the job of GOG is to deal with them, you can watch a documentary filmed by Noclip about that.
+It's hard to imagine a developer can't control his game. The struggle of Wormwood Studios to upload their game reminds me an ironic story in *Cryptonomicon*(at the end of chapter Forays). Real life is much worse than the novel. Someone owns the code, someone owns the binary file and another one holds the title. After years of firm mergers even the owner doesn't realize they have the right. Part of the job of GOG is to deal with them, you can watch a GOG documentary filmed by Noclip on YouTube which shades some light on this mess.
 
 ## Links
 
 - [Primordia (video game) - Wikipedia](https://en.wikipedia.org/wiki/Primordia_(video_game))
 
-- [wineskin-winery needs to be updated to run on 64-bit Mac OSX (Catalina+) · Issue #81292 · Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask/issues/81292)
+- [Wineskin: play your favorite Windows games on Mac OS X without needing Microsoft Windows](http://wineskin.urgesoftware.com/tiki-index.php)
+
+- [wineskin-winery needs to be updated to run on 64-bit Mac OSX (Catalina+) · Issue #81292 · Homebrew/homebrew-cask · GitHub](https://github.com/Homebrew/homebrew-cask/issues/81292)
 
 - [Adventure Game Studio - Wikipedia](https://en.wikipedia.org/wiki/Adventure_Game_Studio)
 
-- [Deutsche Übersetzung \| German Translation, page 2 - Forum - GOG.com](https://www.gog.com/forum/primordia/deutsche_ubersetzung_german_translation)
+- [Deutsche Übersetzung \| German Translation, page 3 - Forum - GOG.com](https://www.gog.com/forum/primordia/deutsche_ubersetzung_german_translation)
 
 - [Porting Adventure Game Studio Games to the Mac](http://www.edenwaith.com/blog/index.php?p=112)
 
 - [Inno Setup - Wikipedia](https://en.wikipedia.org/wiki/Inno_Setup)
 
-- [dscharrer/innoextract: A tool to unpack installers created by Inno Setup](https://github.com/dscharrer/innoextract)
+- [GitHub - dscharrer/innoextract: A tool to unpack installers created by Inno Setup](https://github.com/dscharrer/innoextract)
 
-- [adventuregamestudio/ags: AGS editor and engine source code](https://github.com/adventuregamestudio/ags)
+- [GitHub - adventuregamestudio/ags: AGS editor and engine source code](https://github.com/adventuregamestudio/ags)
 
 - [oh-my-zsh slow, but only for certain Git repo - Stack Overflow](https://stackoverflow.com/questions/12765344/oh-my-zsh-slow-but-only-for-certain-git-repo)
 
