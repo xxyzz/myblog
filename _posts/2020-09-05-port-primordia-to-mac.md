@@ -5,9 +5,9 @@ date: 2020-09-05
 description: "Port Primordia or any other Adventure Game Studio games to macOS Catalina and Linux."
 ---
 
-I didn't figure out how to run the Primordia game when I first played it, a GOG support staff told me how to load the game with Wineskin and that was before the game language update and one week before macOS dropped support of 32-bit apps. Now I can neither play the updated game nor the old one because only Windows installer get updated and the latest Wineskin was released in 2012, err.
+I didn't figure out how to run the Primordia game when I first played it, a GOG support staff told me to load the game with Wineskin and that was before the game language update and one week before macOS dropped support of 32-bit apps. Now I can neither play the updated game nor the old one because only Windows installer get updated and the latest Wineskin was released in 2012, err.
 
-Luckily, I found that I can build the game and run it without Wine. Primordia is based on Adventure Game Studio(AGS), which is an open source cross-platform game engine. Maybe the publisher \*bleep\* up, this game should be working on Linux and macOS. What we need to do is extracting game files from the Windows installer and building a 64-bit app, kind like a ScummVM game.
+Luckily, I found that I can build the game and run it without Wine. Primordia is based on Adventure Game Studio(AGS), which is an open source cross-platform game engine. Maybe the publisher doesn't care, port to Linux and macOS is trivial. What we need to do is extracting game files from the Windows installer and building a 64-bit ags engine, kind like a ScummVM game.
 
 ## Extract game files
 
@@ -18,15 +18,16 @@ GOG uses Inno Setup to pack their Windows installers, which is also open sourced
 Rename file `Primordia.exe` to `game.ags`. Clone the AGS project and follow the steps in README of folder `OSX`. You don't need Xcode, try `cmake` and `make` commands. After `make` is done, the `AGS.app/Contents/Resources` folder should have the following files:
 
 ```
-acsetup.cfg
-ags.icons
-audio.vox
-ENGV.tmp
-French.tra
-game.ags
-German.tra
-Spanish.tra
-speech.vox
+$ du -h ./
+ 12K    ./ENGV.tmp
+660K    ./French.tra
+696K    ./German.tra
+664K    ./Spanish.tra
+4.0K    ./acsetup.cfg
+188K    ./ags.icns
+2.7M    ./audio.vox
+942M    ./game.ags
+492M    ./speech.vox
 ```
 
 `ENGV.tmp` and `.tra` files need to be copied manually. I didn't replay the game to the end so I can't assure you it doesn't have any fatal bugs but looks fine. The only bug I encountered is the opening scene will hang at the second sentence, solution is hitting `ESC` to skip.
