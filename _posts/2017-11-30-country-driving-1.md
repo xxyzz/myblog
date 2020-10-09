@@ -9,9 +9,9 @@ I have only read half of the book in a month and I have not write any post yet, 
 
 ### The Wall
 
-I have been to three walls: [Badaling](https://en.wikipedia.org/wiki/Badaling), [Hushan Great Wall](https://en.wikipedia.org/wiki/Hushan_Great_Wall), [Shanhaiguan](https://en.wikipedia.org/wiki/Shanhai_Pass). Hushan Great Wall is the most easterly known part of the Great Wall. On the Hushan Wall, you will see North Korea's farmland. You can also take a boat to cross the border in the middle of Yalu River. But the scenic area is too shabby and small, the ticket doesn't worth 80 yuan. Shanhaiguan is one of the heavily fortified passes in China. Even during the Second Sino-Japanese War and Chinese Civil War, it was still an important pass. The east part of the wall "Laolongtou" meets the Bohai Sea. As for Badaling, all I saw were people.
+I have been to three walls: [Badaling](https://en.wikipedia.org/wiki/Badaling), [Hushan](https://en.wikipedia.org/wiki/Hushan_Great_Wall) and [Shanhaiguan](https://en.wikipedia.org/wiki/Shanhai_Pass). Hushan Great Wall is the easternmost known part of the Great Wall. Once you climb high enough, you will see North Korea's farmland. You can also take a boat to cross the border in the middle of Yalu River. But it's overpriced. Shanhaiguan is one of the heavily fortified passes in China. Even during the Second Sino-Japanese War and Chinese Civil War, it was still an important military pass. The east part of the wall "Laolongtou" meets the Bohai Sea, great place for sightseeing. As for Badaling, all I saw were people.
 
-I never though about the wall in Ho Wei's view. Now I see it's weird for the party treats the wall as a symbol of the Chinese culture or muti-ethnic unit. It's a bloody wall for resisting Mongolian invasion. When I hear someone wants to build a wall nowadays, the first impression come to me is stupid and narrow-minded(the Berlin Wall, GFW, the Trump Wall).
+Before I read this book I thought the Great Wall is remarkable and I still think so. But besides that, now I feel it's inappropriate for the party promotes the wall as a symbol of the Chinese culture or muti-ethnic unity. It's a bloody military building for defensing invasion of minorities. And most walls are stupid, like GFW, paywall, Berlin wall and many other borders except Vox Borders.
 
 ### Migrant
 
@@ -46,3 +46,5 @@ Wei Ziqi joined the party for his business. He needs the local party members' su
 - [It’s not for everyone - China’s Communist Party is becoming choosier about new members \| China \| The Economist](https://www.economist.com/news/china/21731627-its-rolls-grew-last-year-smallest-percentage-record-chinas-communist-party-becoming)
 
 - [北京低端人口 - 维基百科，自由的百科全书](https://zh.wikipedia.org/zh-cn/%E5%8C%97%E4%BA%AC%E4%BD%8E%E7%AB%AF%E4%BA%BA%E5%8F%A3)
+
+- [Vox Borders](https://www.vox.com/a/borders)
