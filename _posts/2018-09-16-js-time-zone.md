@@ -3,9 +3,10 @@ layout: post
 title: "JS time zone"
 date: 2018-09-16
 description: "Don't forget to add letter 'Z' to UTC ISO date formats string in JavaScript and dont't use dateString to create Date objects."
-comments: true
 ---
+
 I have been confused by converting time zones in Angular for several days, it turns out that UTC ISO date formats need to add a letter "Z" at the end which means zero offset[^1]. So what happens if we left it out?
+
 ### In Firefox
 
 {% highlight javascript %}
@@ -130,6 +131,7 @@ If you have to use it, make sure you add the letter "Z". Then use `toLocaleStrin
 You see, I've learned something today, yesterday and the day before yesterday: \*\*\*\*
 
 ### References
+
 [^1]: [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
 
 [^2]: [Date.prototype.getTimezoneOffset()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset)
