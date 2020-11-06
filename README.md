@@ -1,18 +1,20 @@
 # My blog
 
-[![Build Status](https://travis-ci.org/xxyzz/myblog.svg?branch=master)](https://travis-ci.org/xxyzz/myblog)
-
 A Jekyll blog.
 
 ## Test locally
 
-1. [Install Jekyll](https://jekyllrb.com/docs/installation)
+https://jekyllrb.com/docs/installation
 
-2. Install gems: `bundle install`.
+```
+$ brew install ruby
+# add ruby and gems path
+$ gem install bundler jekyll
+$ bundle install
+$ bundle exec jekyll server --drafts --livereload
+```
 
-3. Preview with drafts: `bundle exec jekyll server --drafts`.
-
-4. Update gems:
+Update gems:
 
 ```
 $ gem update --system
