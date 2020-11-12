@@ -28,3 +28,5 @@ Knowing is not half the battle and don't buy crappy products.
 - [Gadgetbridge - Codeberg.org](https://codeberg.org/Freeyourgadget/Gadgetbridge)
 
 - [Cultural erasure \| Australian Strategic Policy Institute \| ASPI](https://www.aspi.org.au/report/cultural-erasure)
+
+- [Uyghur genocide - Wikipedia](https://en.wikipedia.org/wiki/Uyghur_genocide)
