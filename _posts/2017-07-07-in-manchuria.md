@@ -11,7 +11,7 @@ description: "A great book of Dongbei's history and China's rural areas."
 
 I never knew Shenyang has a prisoner of war camp until I read the book. The museum is tiny and shabby but I'm glad to see a real camp with my own eyes for free.
 
-![prisoner barrack](/img/prisoner-camp.jpg)
+![prisoner barrack](https://upload.wikimedia.org/wikipedia/commons/4/40/Hoten_Camp.jpg)
 This picture is taken at the second floor of the only remaining prisoner barrack. I can barely see the stoves between the beds.
 
 ## City planning
@@ -29,7 +29,7 @@ Changchun
 
 I'm impressed after reading the Changchun Wikipedia page. All the buildings around these squares are still in use today, some even still remain the same functionality like hotel, bank or police station. At Zhongshan Square in Shenyang, I saw this funny scene: Chairman Mao stands in the center of Japanese designed square where used to be a monument of Russon-Japanese War greets cars since Cultural Revolution era.
 
-![Hail Hitler!](/img/mao.jpg "Hail Hitler!")
+![Hail Hitler!](https://upload.wikimedia.org/wikipedia/commons/1/15/Shenyang_Zhongshan_Square.jpg "Hail Hitler!")
 An enormous, totally communistic and gay statue. It has a long name: Long Live the Victory of Mao Zedong Though. How can a thought claim victory?
 
 ## Korean War
