@@ -13,7 +13,7 @@ description: "How to make clear ice."
 
 ![Glaze on a pine tree](https://upload.wikimedia.org/wikipedia/commons/3/3a/Glaze_on_a_pine_tree.jpg)
 
-Glaze ice is crystal clear. Somehow I remember I once read that boiled water can make clear ice but freezing rain are defiantly not boiling so I recon it's busted. Although the forming process of glace ice and clear ice cubes are different, it leads to a fun experiment.
+Glaze ice is crystal clear. Somehow I remember I once read that boiled water can make clear ice but freezing rain are defiantly not boiling so I reckon it's busted. Although the forming process of glace ice and clear ice cubes are different, it leads to a fun experiment.
 
 ## How to make clear ice
 
