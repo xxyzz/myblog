@@ -17,7 +17,7 @@ I can't help laugh about it, this is so stupid and hilarious. Xiaom's Mi Scale d
 
 Knowing is not half the battle and don't buy crappy products.
 
-## Links
+## Okay move along, move along people, there's nothing to see here!
 
 - [OpenWrt Project: Development builds / snapshots](https://openwrt.org/releases/snapshot)
 
