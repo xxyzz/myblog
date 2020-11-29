@@ -26,8 +26,10 @@ I made a rough ice tray to test this theory:
 ![My ice tray](https://upload.wikimedia.org/wikipedia/commons/7/76/Homemade_clear_ice_tray.jpg)
 
 ![Clear ice made from my ice tray](https://upload.wikimedia.org/wikipedia/commons/7/7f/Clear_ice.jpg)
+Tap water
 
 ![Ginkgo leaf inside clear ice](https://upload.wikimedia.org/wikipedia/commons/5/53/Clear_ice_with_ginkgo_leave.jpg)
+Boiled water and a ginkgo leave
 
 ## Okay move along, move along people, there's nothing to see here!
 
