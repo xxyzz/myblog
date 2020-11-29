@@ -2,14 +2,14 @@
 layout: post
 title: "In Manchuria"
 date: 2017-07-07 18:08:00 +0800
-description: "A great book of Dongbei's history and China's rural areas."
+description: "A great book of the history of Northeast China."
 ---
 
 *In Manchuria* is the second book of Michael Meyer. The book describes his experiences during his three years living in Dongbei. Through his book I have found lots of things I had never noticed before.
 
 ## Hoten Camp
 
-I never knew Shenyang has a prisoner of war camp until I read the book. The museum is tiny and shabby but I'm glad to see a real camp with my own eyes for free.
+I never knew Shenyang has a prisoner of war camp until I read the book. The museum is tiny and shabby but I'm glad to see a real camp with my own eyes for free(and able to get out).
 
 ![prisoner barrack](https://upload.wikimedia.org/wikipedia/commons/4/40/Hoten_Camp.jpg)
 This picture is taken at the second floor of the only remaining prisoner barrack. I can barely see the stoves between the beds.
@@ -18,13 +18,13 @@ This picture is taken at the second floor of the only remaining prisoner barrack
 
 The Japanese plan for the city is still clearly visible today, can you spot the pattern on the map?
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=123.38180780410768%2C41.78361706675124%2C123.40734243392944%2C41.79577611765196&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=123.38180780410768%2C41.78361706675124%2C123.40734243392944%2C41.79577611765196&amp;layer=mapnik" style="border: 1px solid black"></iframe>
 Shenyang
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=121.62581920623781%2C38.91689022809942%2C121.6385865211487%2C38.92323416360054&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=121.62581920623781%2C38.91689022809942%2C121.6385865211487%2C38.92323416360054&amp;layer=mapnik" style="border: 1px solid black"></iframe>
 Dalian
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=125.28800010681154%2C43.8852122860285%2C125.33906936645509%2C43.9087147353263&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=125.28800010681154%2C43.8852122860285%2C125.33906936645509%2C43.9087147353263&amp;layer=mapnik" style="border: 1px solid black"></iframe>
 Changchun
 
 I'm impressed after reading the Changchun Wikipedia page. All the buildings around these squares are still in use today, some even still remain the same functionality like hotel, bank or police station. At Zhongshan Square in Shenyang, I saw this funny scene: Chairman Mao stands in the center of Japanese designed square where used to be a monument of Russon-Japanese War greets cars since Cultural Revolution era.
