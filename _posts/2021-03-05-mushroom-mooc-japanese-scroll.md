@@ -31,6 +31,4 @@ I came across this Edo period scroll when I was browsing Wikipedia. IDK what the
 
 - [Fundamentals of Music Theory \| Coursera](https://www.coursera.org/learn/edinburgh-music-theory)
 
-- [He-gassen - Wikipedia](https://en.wikipedia.org/wiki/He-gassen)
-
-- ... NEVER, EVER fart on anyone's balls ... farting on someone's balls is NOT COOL. - Eric Cartman
+- [He-gassen - Wikipedia](https://en.wikipedia.org/wiki/He-gassen "... NEVER, EVER fart on anyone's balls ... farting on someone's balls is NOT COOL. - Eric Cartman")
