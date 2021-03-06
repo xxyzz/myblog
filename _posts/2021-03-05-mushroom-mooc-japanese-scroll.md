@@ -11,7 +11,7 @@ I learned something last year: if you eat lots of fresh copper spikes, your urin
 
 ## MOOC
 
-The second week is a disaster, it's so horrible that it feels exactly like I was attending ... a college course. I was totally lost during the lectures and after solving some puzzles I may feel like I learned something but in fact I know nothing. There are at least three ways to save this course:
+The third week is a disaster, it's so horrible that it feels exactly like I was attending ... a college course. I was totally lost during the lectures and after solving some puzzles I may feel like I learned something but in fact I know nothing. There are at least three ways to save this course:
 
 - explain why and how things work, don't read the definition
 
