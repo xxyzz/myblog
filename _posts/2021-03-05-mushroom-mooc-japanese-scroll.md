@@ -7,7 +7,7 @@ description: 'The f*ck?'
 
 ## Mushroom
 
-I learned something last year: if you eat lots of fresh copper spikes, your urine will turn red in the rest of the day. Don't panic! You're fine, that's just the part of the mushroom you can't digest.
+I learned something last year: if you eat lots of fresh copper spikes, your urine will turn <strong style="color:blue">red</strong> for the rest of the day. Don't panic! You're fine, that's just the part of the mushroom you can't digest.
 
 ## MOOC
 
