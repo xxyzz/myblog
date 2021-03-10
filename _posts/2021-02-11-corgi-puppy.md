@@ -4,7 +4,7 @@ title: "Corgi Puppy"
 date: 2021-02-11
 ---
 
-My uncle's dog.
+My uncle's two month old shark.
 
 You have no idea how stinky its poops are.
 
@@ -15,6 +15,8 @@ You have no idea how stinky its poops are.
 I always wonder what happened to their tails. Well, the breed standards said they must be docked for no good reason. But tail docking is illegal in UK, why it's still in the standard?
 
 ## Okay move along, move along people, there's nothing to see here!
+
+- [How to Stop Puppy Biting – American Kennel Club](https://www.akc.org/expert-advice/training/stop-puppy-biting)
 
 - [Official Standard of the Pembroke Welsh Corgi - American Kennel Club](https://images.akc.org/pdf/breeds/standards/PembrokeWelshCorgi.pdf)
 
